@@ -11,5 +11,6 @@
         @include('utils.navbar')
         @include('components.banner')
         @include('components.youngblock')
+        @include('utils.footer')
     </body>
 </html>
