@@ -1,0 +1,12 @@
+#youngblock .margin15 {
+  margin-top: 15px; }
+
+#youngblock .margin100 {
+  margin-top: 100px; }
+
+#youngblock .position-bot85 {
+  position: relative;
+  bottom: 85px; }
+
+#youngblock .block-shadow {
+  box-shadow: 0px 0px 50px #000; }
