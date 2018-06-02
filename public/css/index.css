@@ -24,3 +24,13 @@ body {
   background-color: #414141;
   color: #fff;
   font-family: "Conv_krungsri_con-webfont", monospace; }
+
+.line-nav {
+  border-top: 5px solid #ffd400;
+  padding: 0px;
+  margin: 0px; }
+
+.logo {
+  position: relative;
+  bottom: 6px;
+  z-index: 1; }

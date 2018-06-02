@@ -10,7 +10,6 @@
                         # F <span class="white-text">I</span> R S T M I L L I O N
                     </span>
                 </p>
-
             </div>
         </div>
     </div>
