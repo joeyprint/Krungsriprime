@@ -1,0 +1,30 @@
+@import 'variables';
+
+#midcontent {
+    .line {
+        border-bottom: 3px solid;
+        border-top: 3px solid;
+        border-color: #ffd400;
+    }
+
+    .margin10 {
+        margin: 10px;
+    }
+
+    .margin20 {
+        margin: 20;
+    }
+
+    .text {
+        font-size: 1.2em;
+    }
+
+    .yellow-text {
+        color: #ffd400;
+        font-family: $krungsriMed;
+    }
+
+    .white-text {
+        color: #fff;
+    }
+}
