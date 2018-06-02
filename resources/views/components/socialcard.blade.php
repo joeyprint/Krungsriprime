@@ -5,7 +5,12 @@
                 @if($i > 6)
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-center">
-                        <p>..LOAD MORE..</p>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <p class="btn-load padding10 load-text">..LOAD MORE..</p>
+                            </div>
+                        </div>
                     </div>
                     @break
                 @else
