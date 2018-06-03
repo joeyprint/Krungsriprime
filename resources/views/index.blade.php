@@ -8,6 +8,7 @@
         <link rel="stylesheet" href={{ asset('/css/youngblock.css') }}>
         <link rel="stylesheet" href={{ asset('/css/midcontent.css') }}>
         <link rel="stylesheet" href={{ asset('/css/socialcard.css') }}>
+        <link rel="stylesheet" href={{ asset('/css/promote.css') }}>
     </head>
     <body>
         @include('utils.navbar')
@@ -15,6 +16,7 @@
         @include('components.youngblock')
         @include('components.midcontent')
         @include('components.socialcard')
+        @include('components.promote')
         @include('utils.footer')
     </body>
 </html>
