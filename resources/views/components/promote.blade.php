@@ -1,5 +1,5 @@
 <section id="promote">
-    <div class="container">
+    <div class="container container-size">
         <div class="row paddingTop80">
             <div class="col-md-1"></div>
             <div class="col-md-4">
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row btn-position">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
                 <p class="btn-goweb">เข้าสู่เว็บไซต์ KRUNGSRI PRIME</p>

@@ -26,6 +26,8 @@
   border-top: 5px solid #ffd400;
   padding: 0px;
   margin: 0px; }
+  #promote .container-size {
+    height: 750px; }
   #promote .paddingTop80 {
     padding-top: 80px; }
   #promote .paddingTop10 {
@@ -42,9 +44,10 @@
   #promote .promote-position {
     position: relative;
     bottom: 390px; }
-  #promote .btn-goweb {
+  #promote .btn-position {
     position: relative;
-    bottom: 250px;
+    bottom: 250px; }
+  #promote .btn-goweb {
     padding: 20px;
     margin: 0px;
     background-color: #4e5156;
