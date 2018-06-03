@@ -42,3 +42,16 @@
   #promote .promote-position {
     position: relative;
     bottom: 390px; }
+  #promote .btn-goweb {
+    position: relative;
+    bottom: 250px;
+    padding: 20px;
+    margin: 0px;
+    background-color: #4e5156;
+    border-radius: 10px;
+    font-family: "Conv_krungsri_con_med-webfont"; }
+  #promote .btn-goweb:hover {
+    border: 2px solid #4e5156;
+    color: #4e5156;
+    background-color: transparent;
+    cursor: pointer; }

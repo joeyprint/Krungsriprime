@@ -33,6 +33,42 @@
                 </div>
             </div>
         </div>
-
+        <div class="row promote-position">
+            <div class="col-md-5"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 text-center font-weight-bold">
+                        <p class="description paddingTop10">
+                            ดาวน์โหลด แอปพลิเคชั่น KRUNGSRI PRIME<br>
+                            เพื่อรับเอกสิทธิ์เหนือระดับก่อนใครง่ายๆ ด้วยปลายนิ้วสัมผัส
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row promote-position">
+            <div class="col-md-5"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 text-right">
+                        <img src={{ asset('/imgs/app-icon.png') }} alt="application icon" height="40px">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src={{ asset('/imgs/appstore.png') }} alt="appstore icon" height="40px">                        
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src={{ asset('/imgs/googleP.png') }} alt="ggplay icon" height="40px">                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <p class="btn-goweb">เข้าสู่เว็บไซต์ KRUNGSRI PRIME</p>
+            </div>
+        </div>
     </div>
 </section>
