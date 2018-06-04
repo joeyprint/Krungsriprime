@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_krungsri_con-webfont';
+  src: url("/fonts/krungsri_con-webfont.eot");
+  src: local("☺"), url("/fonts/krungsri_con-webfont.woff") format("woff"), url("/fonts/krungsri_con-webfont.ttf") format("truetype"), url("/fonts/krungsri_con-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_krungsri_con_med-webfont';
+  src: url("/fonts/krungsri_con_med-webfont.eot");
+  src: local("☺"), url("/fonts/krungsri_con_med-webfont.woff") format("woff"), url("/fonts/krungsri_con_med-webfont.ttf") format("truetype"), url("/fonts/krungsri_con_med-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_krungsri_con_bol-webfont';
+  src: url("/fonts/krungsri_con_bol-webfont.eot");
+  src: local("☺"), url("/fonts/krungsri_con_bol-webfont.woff") format("woff"), url("/fonts/krungsri_con_bol-webfont.ttf") format("truetype"), url("/fonts/krungsri_con_bol-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#banner .marginTop30 {
+  padding-top: 30px; }
+
+#banner .marginBot30 {
+  padding-bottom: 30px; }
+
+#banner .title-position {
+  position: relative;
+  bottom: 60px; }
+
+#banner .line {
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+  border-color: #ffd400; }
+
+#banner .title-text {
+  font-size: 1.5em; }
+
+#banner .text {
+  font-size: 1.2em; }
+
+#banner .yellow-text {
+  color: #ffd400;
+  font-family: "Conv_krungsri_con_med-webfont"; }

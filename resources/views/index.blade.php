@@ -7,6 +7,7 @@
     <link rel="stylesheet" href={{ asset('/css/midcontent.css') }}>
     <link rel="stylesheet" href={{ asset('/css/socialcard.css') }}>
     <link rel="stylesheet" href={{ asset('/css/promote.css') }}>
+    <link rel="stylesheet" href={{ asset('/css/banner.css') }}>
 @endsection
 
 @section('content')

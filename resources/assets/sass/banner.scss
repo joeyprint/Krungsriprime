@@ -1,0 +1,35 @@
+@import 'variables';
+
+#banner {
+    .marginTop30 {
+        padding-top: 30px;
+    }
+
+    .marginBot30 {
+        padding-bottom: 30px;
+    }
+
+    .title-position {
+        position: relative;
+        bottom: 60px;
+    }
+
+    .line {
+        border-bottom: 3px solid;
+        border-top: 3px solid;
+        border-color: #ffd400;
+    }
+
+    .title-text {
+        font-size: 1.5em;
+    }
+
+    .text {
+        font-size: 1.2em;
+    }
+
+    .yellow-text {
+        color: #ffd400;
+        font-family: $krungsriMed;
+    }
+}
