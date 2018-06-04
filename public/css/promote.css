@@ -26,6 +26,8 @@
   border-top: 5px solid #ffd400;
   padding: 0px;
   margin: 0px; }
+  #promote .marginTop10 {
+    margin-top: 10px; }
   #promote .container-size {
     height: 750px; }
   #promote .paddingTop80 {
@@ -58,3 +60,10 @@
     color: #4e5156;
     background-color: transparent;
     cursor: pointer; }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768spx) {
+  #promote .promote-position {
+    bottom: 300px; }
+  #promote .mobile-pic {
+    position: relative;
+    bottom: 320px; } }

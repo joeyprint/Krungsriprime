@@ -8,6 +8,10 @@
     padding: 0px;
     margin: 0px;
     
+    .marginTop10 {
+        margin-top: 10px;
+    }
+
     .container-size {
         height: 750px;
     }
@@ -58,5 +62,18 @@
         color: #4e5156;
         background-color: transparent;
         cursor: pointer;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768spx) {
+    #promote {
+        .promote-position {
+            bottom: 300px;
+        }
+
+        .mobile-pic {
+            position: relative;
+            bottom: 320px;
+        }
     }
 }
