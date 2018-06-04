@@ -1,14 +1,20 @@
 <section id="banner">
-    <div class="container-fluid padding0">
+    <div class="container-fluid padding0 video-position">
         <div class="row no-gutters justify-content-center">
             <div class="col-12">
-                <video class="d-none d-md-block video-width" src={{ asset('/imgs/Firstmillion_banner.mp4') }}></video>
-                <video class="d-md-none video-width" src={{ asset('/imgs/Firstmillion_banner_Mobile.mp4') }}></video>
+                <video class="d-none d-md-block video-width" src={{ asset('/imgs/Firstmillion_banner.mp4') }} autoplay></video>
+                <video class="d-md-none video-width" src={{ asset('/imgs/Firstmillion_banner_Mobile.mp4') }} autoplay></video>
+            </div>
+        </div>
+        <div class="row justify-content-center marginBot30 video-position scroll-index no-gutters">
+            <div class="col-12 text-center">
+                <img src="/imgs/down.png" alt="scroll-down vector">
+                <p class="marginTop10">SCROLL DOWN</p>
             </div>
         </div>
     </div>
-    <div class="container">
-        {{-- <div class="row justify-content-center title-position">
+    {{-- <div class="container">
+        <div class="row justify-content-center title-position">
             <div class="col-10 col-md-6 line">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -28,20 +34,6 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
-        <div class="row justify-content-center scroll-index marginTop30 marginBot30">
-            <div class="col-12 text-center">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="/imgs/down.png" alt="scroll-down vector">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="scroll-text">SCROLL DOWN</p>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
+    </div> --}}
 </section>

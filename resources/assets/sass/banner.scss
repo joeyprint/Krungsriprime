@@ -6,6 +6,10 @@
         padding: 0px;
     }
 
+    .marginTop10 {
+        margin-top: 10px;
+    }
+
     .marginTop30 {
         padding-top: 30px;
     }
@@ -17,6 +21,11 @@
     .video-width {
         max-width: 100%;
         width: 100%;
+    }
+
+    .video-position {
+        position: relative;
+        bottom: 110px;
     }
 
     .title-position {
@@ -41,5 +50,9 @@
     .yellow-text {
         color: #ffd400;
         font-family: $krungsriMed;
+    }
+
+    .scroll-index {
+        z-index: 1;
     }
 }

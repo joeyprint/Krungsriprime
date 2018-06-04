@@ -23,6 +23,9 @@
 #banner .padding0 {
   padding: 0px; }
 
+#banner .marginTop10 {
+  margin-top: 10px; }
+
 #banner .marginTop30 {
   padding-top: 30px; }
 
@@ -32,6 +35,10 @@
 #banner .video-width {
   max-width: 100%;
   width: 100%; }
+
+#banner .video-position {
+  position: relative;
+  bottom: 110px; }
 
 #banner .title-position {
   position: relative;
@@ -51,3 +58,6 @@
 #banner .yellow-text {
   color: #ffd400;
   font-family: "Conv_krungsri_con_med-webfont"; }
+
+#banner .scroll-index {
+  z-index: 1; }
