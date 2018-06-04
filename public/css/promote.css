@@ -54,10 +54,3 @@
     color: #4e5156;
     background-color: transparent;
     cursor: pointer; }
-
-@media only screen and (min-device-width: 576px) and (max-device-width: 768spx) {
-  #promote .promote-position {
-    bottom: 300px; }
-  #promote .mobile-pic {
-    position: relative;
-    bottom: 320px; } }
