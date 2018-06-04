@@ -43,15 +43,9 @@
     color: #414141; }
   #promote .description {
     color: #414141; }
-  #promote .promote-position {
-    position: relative;
-    bottom: 390px; }
-  #promote .btn-position {
-    position: relative;
-    bottom: 250px; }
   #promote .btn-goweb {
     padding: 20px;
-    margin: 0px;
+    margin: 30 0 30 0;
     background-color: #4e5156;
     border-radius: 10px;
     font-family: "Conv_krungsri_con_med-webfont"; }
@@ -61,7 +55,7 @@
     background-color: transparent;
     cursor: pointer; }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 768spx) {
+@media only screen and (min-device-width: 576px) and (max-device-width: 768spx) {
   #promote .promote-position {
     bottom: 300px; }
   #promote .mobile-pic {

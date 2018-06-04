@@ -39,19 +39,9 @@
         color: #414141;
     }
 
-    .promote-position {
-        position: relative;
-        bottom: 390px;
-    }
-
-    .btn-position {
-        position: relative;
-        bottom: 250px;
-    }
-
     .btn-goweb {
         padding: 20px;
-        margin: 0px;
+        margin: 30 0 30 0;
         background-color: #4e5156;
         border-radius: 10px;
         font-family: $krungsriMed;
@@ -65,7 +55,7 @@
     }
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 768spx) {
+@media only screen and (min-device-width: 576px) and (max-device-width: 768spx) {
     #promote {
         .promote-position {
             bottom: 300px;
