@@ -1,6 +1,9 @@
 #card .marginTop20 {
   margin-top: 20px; }
 
+#card .marginTop40 {
+  margin-top: 40px !important; }
+
 #card .padding10 {
   padding: 10px; }
 

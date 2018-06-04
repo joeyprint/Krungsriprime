@@ -1,23 +1,14 @@
-<section id="card">
+<section id="card" class="marginTop40">
     <div class="container">
-        <div class="row marginTop20">
+        <div class="row justify-content-center marginTop20">
             @for($i = 1; $i <= 8; $i++)
                 @if($i > 6)
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4 text-center">
-                        <div class="row">
-                            <div class="col-md-3"></div>
-                            <div class="col-md-6">
-                                <p class="btn-load padding10 load-text">..LOAD MORE..</p>
-                            </div>
-                        </div>
-                    </div>
                     @break
                 @else
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="row">
                             <div class="col-12">
-                                <img src={{ asset('/imgs/people1.png') }} alt="social blog">
+                                <img src={{ asset('/imgs/people1.png') }} alt="social blog" width="100%">
                             </div>
                         </div>
                         <div class="row">
@@ -28,6 +19,11 @@
                     </div>
                 @endif
             @endfor
+        </div>
+        <div class="row justify-content-center marginTop20">
+            <div class="col-12 col-sm-6 col-lg-2 text-center">
+                <p class="btn-load padding10 load-text">..LOAD MORE..</p>
+            </div>
         </div>
     </div>
 </section>
