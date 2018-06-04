@@ -1,13 +1,14 @@
 <section id="banner">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
+    <div class="container-fluid padding0">
+        <div class="row no-gutters justify-content-center">
             <div class="col-12">
-                <video src=""></video><p>video for Krungsri Prime</p>
+                <video class="d-none d-md-block video-width" src={{ asset('/imgs/Firstmillion_banner.mp4') }}></video>
+                <video class="d-md-none video-width" src={{ asset('/imgs/Firstmillion_banner_Mobile.mp4') }}></video>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center title-position">
+        {{-- <div class="row justify-content-center title-position">
             <div class="col-10 col-md-6 line">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -27,7 +28,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="row justify-content-center scroll-index marginTop30 marginBot30">
             <div class="col-12 text-center">
                 <div class="row">
