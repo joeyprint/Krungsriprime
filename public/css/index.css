@@ -41,8 +41,8 @@ body {
 #footer .black-text {
   color: #000; }
 
-#footer .padding10 {
-  padding: 10px; }
+#footer .paddingTB10 {
+  padding: 10 0 10 0; }
 
 #footer .margin0 {
   margin: 0px; }
