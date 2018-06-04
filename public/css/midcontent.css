@@ -31,6 +31,10 @@
 #midcontent .margin20 {
   margin: 20; }
 
+#midcontent .marginTB80 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 #midcontent .text {
   font-size: 1.2em; }
 
