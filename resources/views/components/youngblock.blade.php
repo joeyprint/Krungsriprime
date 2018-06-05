@@ -42,11 +42,6 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="owl-dots">
-                        <div class="owl-dot active"><span></span></div>
-                        <div class="owl-dot"><span></span></div>
-                        <div class="owl-dot"><span></span></div>
-                    </div> --}}
                 </div>
             </div>
         </div>
@@ -54,25 +49,81 @@
     <div class="container d-none d-md-block marginTop200">
         <div class="row justify-content-center">
             <div class="col-4 marginTop15">
-                <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
+                        <p class="des-people">TAVEPONG PRATOOMWONG <span class="yellow-text">-----</span> STREET PHOTOGRAPHER</p>
+                    </div>
+                </div>                        
             </div>
             <div class="col-4 marginTop15 column2-position">
-                <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>MINUTE</p>
+                        <p class="des-people">BAM PITIPATT <span class="yellow-text">-----</span> RADIO DJ</p>
+                    </div>
+                </div>
             </div>
             <div class="col-4 marginTop15">
-                <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>STEPS</p>
+                        <p class="des-people">MAY SAMITADA <span class="yellow-text">-----</span> RUNNER</p>
+                    </div>
+                </div>
             </div>
             <div class="col-4 marginTop15">
-                <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>LYRICS</p>
+                        <p class="des-people">FONGBEER <span class="yellow-text">-----</span> SONG WRITER</p>
+                    </div>
+                </div>
             </div>
             <div class="col-4 marginTop15 column2-position">
-                <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>BAHT</p>
+                        <p class="des-people">BOW CHOMPUNOOD <span class="yellow-text">-----</span> BEAUVITA BRAND</p>
+                    </div>
+                </div>
             </div>
             <div class="col-4 marginTop15">
-                <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>METRES</p>
+                        <p class="des-people">HAPPY NANCY <span class="yellow-text">-----</span> TRAVEL BLOGGER</p>
+                    </div>
+                </div>
             </div>
             <div class="col-4 marginTop15 column2-position">
-                <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7">                        
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
+                    </div>
+                    <div class="col-10 text-center des-position">
+                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
+                        <p class="des-people">PANG ASCHA <span class="yellow-text">-----</span> FIFTH SEASON BRAND</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -30,6 +30,18 @@
         bottom: 140px;
     }
 
+    .yellow-text {
+        color: #ffd400;
+    }
+
+    .des-people {
+        font-size: 6pt;
+    }
+
+    .des-position {
+        position: relative;
+        margin-top: -65px;
+    }
     @media screen 
     and (max-device-width: 768px)
     and (min-device-width: 576px) {

@@ -21,6 +21,16 @@
   position: relative;
   bottom: 140px; }
 
+#youngblock .yellow-text {
+  color: #ffd400; }
+
+#youngblock .des-people {
+  font-size: 6pt; }
+
+#youngblock .des-position {
+  position: relative;
+  margin-top: -65px; }
+
 @media screen and (max-device-width: 768px) and (min-device-width: 576px) {
   #youngblock .margin-block {
     margin-top: 50px; } }
