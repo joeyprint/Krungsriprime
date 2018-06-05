@@ -1,5 +1,5 @@
 <section id="midcontent">
-    <div class="container marginTB80">
+    <div class="container marginBot80">
         <div class="row justify-content-center">
             <div class="col-10 col-sm-8 text-center line margin10">
                 <p class="margin20 text">
