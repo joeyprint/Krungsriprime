@@ -43,6 +43,9 @@
     color: #414141; }
   #promote .description {
     color: #414141; }
+  #promote .mobile-pic {
+    width: 100%;
+    height: auto; }
   #promote .btn-goweb {
     padding: 10 0 10 0;
     margin: 30;
@@ -60,10 +63,16 @@
     height: 40px; }
 
 @media screen and (max-device-width: 768px) and (min-device-width: 576px) {
+  .mobile-pic {
+    width: auto;
+    height: 300px; }
   .btn-goweb {
     font-size: 10pt; } }
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  .mobile-pic {
+    width: auto;
+    height: 300px; }
   .btn-goweb {
     font-size: 8pt; }
   .logo-prime {

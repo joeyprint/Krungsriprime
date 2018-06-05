@@ -11,7 +11,7 @@
         <div class="row justify-content-center">
             <div class="col-md-1 d-none d-lg-block"></div>
             <div class="col-12 col-lg-5 text-center paddingTop80">
-                <img src={{ asset('/imgs/mobileapp.png') }} alt="mobile application" height="300px">
+                <img class="mobile-pic" src={{ asset('/imgs/mobileapp.png') }} alt="mobile application">
             </div>
             <div class="col-12 col-lg-5 paddingTop80">
                 <div class="row justify-content-center d-none d-lg-block">
