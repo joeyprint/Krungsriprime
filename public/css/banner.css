@@ -32,13 +32,9 @@
 #banner .marginBot30 {
   padding-bottom: 30px; }
 
-#banner .video-width {
-  max-width: 100%;
-  width: 100%; }
-
 #banner .btn-position {
   position: relative;
-  margin-top: -250px; }
+  margin-top: 550px; }
 
 #banner .title-position {
   position: relative;
@@ -49,19 +45,30 @@
   border-top: 3px solid;
   border-color: #ffd400; }
 
-#banner .title-text {
-  font-size: 1.5em; }
-
-#banner .text {
-  font-size: 1.2em; }
-
-#banner .yellow-text {
-  color: #ffd400;
-  font-family: "Conv_krungsri_con_med-webfont"; }
+#banner .video-size {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  z-index: -1; }
 
 #banner .scroll-index {
-  z-index: 1; }
+  z-index: 2; }
 
 .banner-position {
   position: relative;
   margin-top: -110px; }
+
+@media screen and (max-device-width: 768px) and (min-device-width: 576px) {
+  .btn-position {
+    position: relative;
+    margin-top: 500px; } }
+
+@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  .btn-position {
+    position: relative;
+    margin-top: 450px; } }

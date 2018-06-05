@@ -10,12 +10,13 @@ body {
     border-top: 5px solid #ffd400;
     padding: 0px;
     margin: 0px;
+    z-index: 1;
 }
 
 .logo {
     position: relative;
     bottom: 6px;
-    z-index: 1;
+    z-index: 2;
 }
 
 #footer {
