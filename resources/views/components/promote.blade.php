@@ -47,14 +47,14 @@
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="row justify-content-center">
-                            <div class="col-12 col-lg-2 text-center marginTop10">
-                                <img src={{ asset('/imgs/app-icon.png') }} alt="application icon" height="40px">
+                            <div class="col-12 col-sm-2 text-center marginTop10">
+                                <img class="logo-prime" src={{ asset('/imgs/app-icon.png') }} alt="application icon">
                             </div>
-                            <div class="col-6 col-lg-4 text-center marginTop10">
-                                <img src={{ asset('/imgs/appstore.png') }} alt="appstore icon" height="40px">                        
+                            <div class="col-4 text-center marginTop10">
+                                <img class="logo-store" src={{ asset('/imgs/appstore.png') }} alt="appstore icon">                        
                             </div>
-                            <div class="col-6 col-lg-4 text-center marginTop10">
-                                <img src={{ asset('/imgs/googleP.png') }} alt="ggplay icon" height="40px">                        
+                            <div class="col-4 text-center marginTop10">
+                                <img class="logo-store" src={{ asset('/imgs/googleP.png') }} alt="ggplay icon">                        
                             </div>
                         </div>
                     </div>

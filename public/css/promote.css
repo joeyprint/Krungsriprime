@@ -54,6 +54,10 @@
     color: #4e5156;
     background-color: transparent;
     cursor: pointer; }
+  #promote .logo-prime {
+    height: 40px; }
+  #promote .logo-store {
+    height: 40px; }
 
 @media screen and (max-device-width: 768px) and (min-device-width: 576px) {
   .btn-goweb {
@@ -61,4 +65,9 @@
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
   .btn-goweb {
-    font-size: 8pt; } }
+    font-size: 8pt; }
+  .logo-prime {
+    height: 50px !important; }
+  .logo-store {
+    width: auto;
+    height: 30px !important; } }

@@ -53,6 +53,14 @@
         background-color: transparent;
         cursor: pointer;
     }
+
+    .logo-prime {
+        height: 40px;
+    }
+
+    .logo-store {
+        height: 40px;
+    }
 }
 
 @media screen 
@@ -68,5 +76,14 @@ and (max-device-width: 576px)
 and (min-device-width: 0px) {
     .btn-goweb {
         font-size: 8pt;
+    }
+
+    .logo-prime {
+        height: 50px !important;
+    }
+
+    .logo-store {
+        width: auto;
+        height: 30px !important;
     }
 }
