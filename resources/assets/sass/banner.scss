@@ -1,7 +1,7 @@
 @import 'variables';
 
 #banner {
-    
+
     .padding0 {
         padding: 0px;
     }
@@ -26,6 +26,11 @@
     .video-position {
         position: relative;
         bottom: 110px;
+    }
+
+    .btn-position {
+        position: relative;
+        bottom: 250px;
     }
 
     .title-position {

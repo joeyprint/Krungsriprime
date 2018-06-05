@@ -40,6 +40,10 @@
   position: relative;
   bottom: 110px; }
 
+#banner .btn-position {
+  position: relative;
+  bottom: 250px; }
+
 #banner .title-position {
   position: relative;
   bottom: 60px; }
