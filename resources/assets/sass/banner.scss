@@ -23,14 +23,9 @@
         width: 100%;
     }
 
-    .video-position {
-        position: relative;
-        bottom: 110px;
-    }
-
     .btn-position {
         position: relative;
-        bottom: 250px;
+        margin-top: -250px;
     }
 
     .title-position {
@@ -60,4 +55,10 @@
     .scroll-index {
         z-index: 1;
     }
+}
+
+.banner-position {
+    position: relative;
+    margin-top: -110px;
+    
 }
