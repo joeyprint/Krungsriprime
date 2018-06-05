@@ -1,5 +1,5 @@
 <section id="youngblock">
-    <div class="container-fluid d-block d-md-none marginTop150 padding0">
+    <div class="container-fluid d-block d-md-none margin-block padding0">
         <div class="row justify-content-center no-gutters">
             <div class="col-12">
                 <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
