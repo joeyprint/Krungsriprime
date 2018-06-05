@@ -8,7 +8,7 @@ owl.owlCarousel({
     nav: true,
     navClass: ['.owl-prev', 'owl-next'],
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     autoWidth: true,
     responsive: {

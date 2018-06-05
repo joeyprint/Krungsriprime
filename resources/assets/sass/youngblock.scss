@@ -38,6 +38,10 @@
         font-size: 6pt;
     }
 
+    .relation-position {
+        position: relative;
+    }
+
     .des-position {
         position: relative;
         margin-top: -65px;
@@ -48,6 +52,16 @@
         .margin-block {
             margin-top: 50px;
         }
+
+        .des-position {
+            margin: 0px;
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 
     @media screen 
@@ -55,6 +69,16 @@
     and (min-device-width: 0px) {
         .margin-block {
             margin-top: 50px;
+        }
+
+        .des-position {
+            margin: 0;
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     }
 }

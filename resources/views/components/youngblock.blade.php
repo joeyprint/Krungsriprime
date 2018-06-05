@@ -5,26 +5,47 @@
                 <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
                     <div class="owl-stage-outer">
                         <div class="owl-stage">
-                            <div class="owl-item">
+                            <div class="owl-item relative-position">
                                 <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>MINUTE</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>STEPS</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>LYRICS</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>BAHT</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>METRES</p>
+                                </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7" width="100%">
+                                <div class="text-center des-position">
+                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
+                                </div>
                             </div>
                         </div>
                     </div>
