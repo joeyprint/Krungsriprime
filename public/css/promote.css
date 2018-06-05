@@ -44,8 +44,8 @@
   #promote .description {
     color: #414141; }
   #promote .btn-goweb {
-    padding: 20px;
-    margin: 30 0 30 0;
+    padding: 10 0 10 0;
+    margin: 30;
     background-color: #4e5156;
     border: 2px solid #4e5156;
     border-radius: 10px;
@@ -54,3 +54,11 @@
     color: #4e5156;
     background-color: transparent;
     cursor: pointer; }
+
+@media screen and (max-device-width: 768px) and (min-device-width: 576px) {
+  .btn-goweb {
+    font-size: 10pt; } }
+
+@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  .btn-goweb {
+    font-size: 8pt; } }

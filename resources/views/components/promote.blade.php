@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-4 text-center">
+            <div class="col-8 col-lg-4 text-center">
                 <p class="btn-goweb">เข้าสู่เว็บไซต์ KRUNGSRI PRIME</p>
             </div>
         </div>
