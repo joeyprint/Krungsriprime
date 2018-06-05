@@ -1,42 +1,79 @@
 <section id="youngblock">
-    <div class="container-fluid d-block d-md-none">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                @for($i = 1; $i <= 7 ; $i++)
-                    @if($i == 1)
-                        <div class="carousel-item active">
-                            <img class="" src={{ asset('/imgs/people'.$i.'.png') }} alt={{ 'People '.$i }} width="100%">
+    <div class="container-fluid d-block d-md-none marginTop150 padding0">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-12">
+                <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
+                            </div>
+                            <div class="owl-item">
+                                <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7" width="100%">
+                            </div>
                         </div>
-                    @else
-                        <div class="carousel-item">
-                            <img class="" src={{ asset('/imgs/people'.$i.'.png') }} alt={{ 'People '.$i }} width="100%">
+                    </div>
+                    <div class="col-12 arrow-carousel">
+                        <div class="row justify-content-center">
+                            <div class="col-5">
+                                <div class="owl-prev">
+                                    <img class="" src={{ asset('/imgs/left.png') }}>
+                                </div>
+                            </div>
+                            <div class="col-5 text-right">
+                                <div class="owl-next">
+                                    <img class="" src={{ asset('/imgs/right.png') }}>
+                                </div>
+                            </div>
                         </div>
-                    @endif
-                @endfor
+                    </div>
+                    {{-- <div class="owl-dots">
+                        <div class="owl-dot active"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                    </div> --}}
+                </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
-    <div class="container d-none d-md-block marginTop100">
+    <div class="container d-none d-md-block marginTop200">
         <div class="row justify-content-center">
-            @for($i = 1; $i <= 7 ; $i++)
-                @if(($i%3)-1 == 1 || $i == 7)
-                    <div class="col-4 marginTop15 column2-position">
-                        <img class="block-shadow" src={{ asset('/imgs/people'.$i.'.png') }} alt="people 1">                        
-                    </div>
-                @else
-                    <div class="col-4 marginTop15">
-                        <img class="block-shadow" src={{ asset('/imgs/people'.$i.'.png') }} alt="people 1">
-                    </div>
-                @endif
-            @endfor
+            <div class="col-4 marginTop15">
+                <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">                        
+            </div>
+            <div class="col-4 marginTop15 column2-position">
+                <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
+            </div>
+            <div class="col-4 marginTop15">
+                <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3">                        
+            </div>
+            <div class="col-4 marginTop15">
+                <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">                        
+            </div>
+            <div class="col-4 marginTop15 column2-position">
+                <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5">                        
+            </div>
+            <div class="col-4 marginTop15">
+                <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6">                        
+            </div>
+            <div class="col-4 marginTop15 column2-position">
+                <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7">                        
+            </div>
         </div>
     </div>
 </section>

@@ -1,11 +1,19 @@
 #youngblock {
 
+    .padding0 {
+        padding: 0px;
+    }
+
     .marginTop15 {
         margin-top: 15px;
     }
 
-    .marginTop100 {
-        margin-top: 100px;
+    .marginTop150 {
+        margin-top: 150px;
+    }
+
+    .marginTop200 {
+        margin-top: 200px;
     }
 
     .column2-position {
@@ -15,5 +23,10 @@
 
     .block-shadow {
         box-shadow: 0px 0px 50px #000; 
+    }
+
+    .arrow-carousel {
+        position: relative;
+        bottom: 140px;
     }
 }

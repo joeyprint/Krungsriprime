@@ -17,3 +17,7 @@
     @include('components.socialcard')
     @include('components.promote')
 @endsection
+
+@section('custom_script')
+    <script src={{ asset('/js/youngblock.js') }}></script>
+@endsection
