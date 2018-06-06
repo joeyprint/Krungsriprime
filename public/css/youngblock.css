@@ -59,6 +59,12 @@
 #youngblock .no-margin {
   margin: 0; }
 
+#youngblock .line-between-text {
+  display: inline;
+  border-top: 2px solid #ffd400;
+  position: relative;
+  top: 4px; }
+
 #youngblock #modal .modal-size {
   max-width: 100%;
   width: 100%;

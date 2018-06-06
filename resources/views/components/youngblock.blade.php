@@ -74,9 +74,17 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">
                     </div>
-                    <div class="col-10 text-center des-position">
+                    <div class="col-12 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
-                        <p class="des-people">TAVEPONG PRATOOMWONG <span class="yellow-text">-----</span> STREET PHOTOGRAPHER</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">TAVEPONG PRATOOMWONG</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-5 text-left">
+                                <p class="des-people">STREET PHOTOGRAPHER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>                        
             </div>
@@ -87,7 +95,15 @@
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>MINUTE</p>
-                        <p class="des-people">BAM PITIPATT <span class="yellow-text">-----</span> RADIO DJ</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">BAM PITIPATT</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-4 text-left">
+                                <p class="des-people">RADIO DJ</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,18 +114,34 @@
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>STEPS</p>
-                        <p class="des-people">MAY SAMITADA <span class="yellow-text">-----</span> RUNNER</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">MAY SAMITADA</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-4 text-left">
+                                <p class="des-people">RUNNER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-4 marginTop15">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center des-align">
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>LYRICS</p>
-                        <p class="des-people">FONGBEER <span class="yellow-text">-----</span> SONG WRITER</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">FONGBEER</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-5 text-left">
+                                <p class="des-people">SONG WRITER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,7 +152,15 @@
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>BAHT</p>
-                        <p class="des-people">BOW CHOMPUNOOD <span class="yellow-text">-----</span> BEAUVITA BRAND</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">BOW CHOMPUNOOD</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-5 text-left">
+                                <p class="des-people">BEAUVITA BRAND</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,7 +171,15 @@
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>METRES</p>
-                        <p class="des-people">HAPPY NANCY <span class="yellow-text">-----</span> TRAVEL BLOGGER</p>
+                        <div class="row justify-content-center">
+                            <div class="col-5 text-right">
+                                <p class="des-people">HAPPY NANC</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-5 text-left">
+                                <p class="des-people">TRAVEL BLOGGER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,7 +190,15 @@
                     </div>
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
-                        <p class="des-people">PANG ASCHA <span class="yellow-text">-----</span> FIFTH SEASON BRAND</p>
+                        <div class="row justify-content-center">
+                            <div class="col-4 text-right">
+                                <p class="des-people">PANG ASCHA</p>
+                            </div>
+                            <div class="col-1 line-between-text"></div>
+                            <div class="col-5 text-left">
+                                <p class="des-people">FIFTH SEASON BRAND</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
