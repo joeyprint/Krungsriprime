@@ -156,19 +156,15 @@
                 <div class="top-line"></div>
                 <div class="modal-dialog modal-dialog-centered max-width" role="document">
                     <div class="container">
-                        <div class="row d-none d-md-block justify-content-end">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span class="close-button" aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="row d-block d-md-none justify-content-center">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <div class="row justify-content-end block-close-position">
+                            <button type="button" class="close close-position" data-dismiss="modal" aria-label="Close">
                                 <span class="close-button" aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="row justify-content-start">
                             <div class="col-12">
-                                <h4 class="text-uppercase yellow-text">Tavepong Pratoomwong</h4>
+                                <h4 class="text-uppercase yellow-text d-none d-md-block">Tavepong Pratoomwong</h4>
+                                <h5 class="text-uppercase yellow-text d-block d-md-none">Tavepong Pratoomwong</h5>
                                 <p class="text-uppercase">Photographer</p>
                             </div>
                             <div class="col-2 col-md-1 top-line marginT10B20"></div>

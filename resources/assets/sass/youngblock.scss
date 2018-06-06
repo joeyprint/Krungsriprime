@@ -66,7 +66,7 @@
             border-top: 5px solid #ffd400;
             z-index: 1;
         }
-    
+
         .close-button {
             font-size: 2em;
             color: #fff;
@@ -136,6 +136,33 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        .block-close-position {
+            position: relative;
+            margin-top: -100px;
+            top: -120px;
+        }
+
+        .close-position {
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            left: 50%;
+            top: 50;
+            transform: translate(-50%, -50%);
+        }
+
+        .qoute-position {
+            margin: 0;
+        }
+
+        .qoute-text {
+            font-size: 12pt !important;
+        }
+
+        .block-bottom-qoute {
+            margin-bottom: 50px;
+        }
     }
 
     @media screen 
@@ -153,6 +180,33 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+        }
+
+        .block-close-position {
+            position: relative;
+            margin-top: -100px !important;
+            top: -120px;
+        }
+
+        .close-position {
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            left: 50%;
+            top: 50;
+            transform: translate(-50%, -50%);
+        }
+
+        .qoute-position {
+            margin: 0;
+        }
+
+        .qoute-text {
+            font-size: 12pt !important;
+        }
+
+        .block-bottom-qoute {
+            margin-bottom: 50px;
         }
     }
 }
