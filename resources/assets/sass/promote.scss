@@ -3,10 +3,9 @@
 #promote {
 
     background-color: #c3c5c6;
-    margin-top: 100px !important;
     border-top: 5px solid #ffd400;
     padding: 0px;
-    margin: 0px;
+    margin: 50 0 0 0;
     
     .marginTop10 {
         margin-top: 10px;
@@ -44,13 +43,32 @@
         color: #414141
     }
 
+    .topic-position, .sub-topic-position {
+        position: relative;
+        left: -30px;
+    }
+
+    .des-block {
+        padding-right: 50px;
+    }
+
     .description {
+        font-size: 0.9em;
         color: #414141;
+    }
+
+    .download-text {
+        font-family: $krungsriMed;
     }
 
     .mobile-pic {
         width: 100%;
         height: auto;
+    }
+
+    .text-block-position {
+        position: relative;
+        left: -35px;
     }
 
     .btn-goweb {
@@ -97,9 +115,17 @@ and (min-device-width: 576px) {
 @media screen 
 and (max-device-width: 576px)
 and (min-device-width: 0px) {
+    .text-block-position {
+        left: 0px !important;
+    }
+    
     .mobile-pic {
         width: auto;
         height: 300px;
+    }
+
+    .des-block {
+        padding-right: 15px !important;
     }
 
     .btn-goweb {
@@ -107,11 +133,15 @@ and (min-device-width: 0px) {
     }
 
     .logo-prime {
-        height: 50px !important;
+        height: 80px !important;
     }
 
     .logo-store {
         width: auto;
-        height: 30px !important;
+        height: 40px !important;
+    }
+
+    .marginTop25 {
+        margin-top: 25px;
     }
 }

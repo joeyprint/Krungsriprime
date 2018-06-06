@@ -22,10 +22,9 @@
 
 #promote {
   background-color: #c3c5c6;
-  margin-top: 100px !important;
   border-top: 5px solid #ffd400;
   padding: 0px;
-  margin: 0px; }
+  margin: 50 0 0 0; }
   #promote .marginTop10 {
     margin-top: 10px; }
   #promote .marginTop20 {
@@ -46,11 +45,22 @@
     font-family: "Conv_krungsri_con_med-webfont";
     line-height: 1.75;
     color: #414141; }
+  #promote .topic-position, #promote .sub-topic-position {
+    position: relative;
+    left: -30px; }
+  #promote .des-block {
+    padding-right: 50px; }
   #promote .description {
+    font-size: 0.9em;
     color: #414141; }
+  #promote .download-text {
+    font-family: "Conv_krungsri_con_med-webfont"; }
   #promote .mobile-pic {
     width: 100%;
     height: auto; }
+  #promote .text-block-position {
+    position: relative;
+    left: -35px; }
   #promote .btn-goweb {
     padding: 10 0 10 0;
     margin: 30;
@@ -78,13 +88,19 @@
     font-size: 10pt; } }
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  .text-block-position {
+    left: 0px !important; }
   .mobile-pic {
     width: auto;
     height: 300px; }
+  .des-block {
+    padding-right: 15px !important; }
   .btn-goweb {
     font-size: 8pt; }
   .logo-prime {
-    height: 50px !important; }
+    height: 80px !important; }
   .logo-store {
     width: auto;
-    height: 30px !important; } }
+    height: 40px !important; }
+  .marginTop25 {
+    margin-top: 25px; } }
