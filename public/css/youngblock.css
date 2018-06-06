@@ -43,11 +43,18 @@
   position: relative;
   margin-top: -140px; }
 
+#youngblock .hashtag-million-text {
+  font-family: "Conv_krungsri_con_med-webfont"; }
+
 #youngblock .yellow-text {
   color: #ffd400; }
 
 #youngblock .des-people {
   font-size: 6pt; }
+
+#youngblock .des-people-position {
+  position: relative;
+  bottom: 25px; }
 
 #youngblock .relation-position {
   position: relative; }
@@ -63,7 +70,7 @@
   display: inline;
   border-top: 2px solid #ffd400;
   position: relative;
-  top: 4px; }
+  top: 7px; }
 
 #youngblock #modal .modal-size {
   max-width: 100%;

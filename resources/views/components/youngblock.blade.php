@@ -8,43 +8,43 @@
                             <div class="owl-item relative-position" data-toggle="modal" data-target="#people1">
                                 <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>MINUTE</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>STEPS</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>LYRICS</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>BAHT</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>METRES</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
                                 </div>
                             </div>
                             <div class="owl-item">
                                 <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7" width="100%">
                                 <div class="text-center des-position">
-                                    <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
+                                    <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
                                 </div>
                             </div>
                         </div>
@@ -74,15 +74,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">
                     </div>
-                    <div class="col-12 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
-                        <div class="row justify-content-center">
+                    <div class="col-12 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">TAVEPONG PRATOOMWONG</p>
+                                <p class="des-people no-margin">TAVEPONG PRATOOMWONG</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-5 text-left">
-                                <p class="des-people">STREET PHOTOGRAPHER</p>
+                                <p class="des-people no-margin">STREET PHOTOGRAPHER</p>
                             </div>
                         </div>
                     </div>
@@ -93,15 +93,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>MINUTE</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">BAM PITIPATT</p>
+                                <p class="des-people no-margin">BAM PITIPATT</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-4 text-left">
-                                <p class="des-people">RADIO DJ</p>
+                                <p class="des-people no-margin">RADIO DJ</p>
                             </div>
                         </div>
                     </div>
@@ -112,15 +112,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>STEPS</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">MAY SAMITADA</p>
+                                <p class="des-people no-margin">MAY SAMITADA</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-4 text-left">
-                                <p class="des-people">RUNNER</p>
+                                <p class="des-people no-margin">RUNNER</p>
                             </div>
                         </div>
                     </div>
@@ -131,15 +131,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>LYRICS</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">FONGBEER</p>
+                                <p class="des-people no-margin">FONGBEER</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-5 text-left">
-                                <p class="des-people">SONG WRITER</p>
+                                <p class="des-people no-margin">SONG WRITER</p>
                             </div>
                         </div>
                     </div>
@@ -150,15 +150,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>BAHT</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">BOW CHOMPUNOOD</p>
+                                <p class="des-people no-margin">BOW CHOMPUNOOD</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-5 text-left">
-                                <p class="des-people">BEAUVITA BRAND</p>
+                                <p class="des-people no-margin">BEAUVITA BRAND</p>
                             </div>
                         </div>
                     </div>
@@ -169,15 +169,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>METRES</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-5 text-right">
-                                <p class="des-people">HAPPY NANC</p>
+                                <p class="des-people no-margin">HAPPY NANC</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-5 text-left">
-                                <p class="des-people">TRAVEL BLOGGER</p>
+                                <p class="des-people no-margin">TRAVEL BLOGGER</p>
                             </div>
                         </div>
                     </div>
@@ -188,15 +188,15 @@
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
                     </div>
-                    <div class="col-10 text-center des-position">
-                        <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
-                        <div class="row justify-content-center">
+                    <div class="col-10 text-center des-position hashtag-million-text">
+                        <p><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
+                        <div class="row justify-content-center des-people-position">
                             <div class="col-4 text-right">
-                                <p class="des-people">PANG ASCHA</p>
+                                <p class="des-people no-margin">PANG ASCHA</p>
                             </div>
                             <div class="col-1 line-between-text"></div>
                             <div class="col-5 text-left">
-                                <p class="des-people">FIFTH SEASON BRAND</p>
+                                <p class="des-people no-margin">FIFTH SEASON BRAND</p>
                             </div>
                         </div>
                     </div>

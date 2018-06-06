@@ -32,12 +32,21 @@
         margin-top: -140px;
     }
 
+    .hashtag-million-text {
+        font-family: $krungsriMed;
+    }
+
     .yellow-text {
         color: #ffd400;
     }
 
     .des-people {
         font-size: 6pt;
+    }
+
+    .des-people-position {
+        position: relative;
+        bottom: 25px;
     }
 
     .relation-position {
@@ -57,7 +66,7 @@
         display: inline;
         border-top: 2px solid #ffd400;
         position: relative;
-        top: 4px;
+        top: 7px;
     }
 
     #modal {
