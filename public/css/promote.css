@@ -28,6 +28,10 @@
   margin: 0px; }
   #promote .marginTop10 {
     margin-top: 10px; }
+  #promote .marginTop20 {
+    margin-top: 20px; }
+  #promote .marginTop30 {
+    margin-top: 30px; }
   #promote .container-size {
     height: 750px; }
   #promote .paddingTop80 {
@@ -40,6 +44,7 @@
     font-size: 2.5em; }
   #promote .sub-topic {
     font-family: "Conv_krungsri_con_med-webfont";
+    line-height: 1.75;
     color: #414141; }
   #promote .description {
     color: #414141; }
@@ -57,8 +62,11 @@
     color: #4e5156;
     background-color: transparent;
     cursor: pointer; }
+  #promote .align-icon {
+    -ms-flex-align: center;
+        align-items: center; }
   #promote .logo-prime {
-    height: 40px; }
+    height: 60px; }
   #promote .logo-store {
     height: 40px; }
 

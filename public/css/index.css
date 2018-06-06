@@ -23,7 +23,8 @@
 body {
   background-color: #414141;
   color: #fff;
-  font-family: "Conv_krungsri_con-webfont", monospace; }
+  font-family: "Conv_krungsri_con-webfont", monospace;
+  line-height: 2.2; }
 
 .line-nav {
   border-top: 5px solid #ffd400;

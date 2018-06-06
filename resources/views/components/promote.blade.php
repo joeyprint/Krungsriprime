@@ -2,19 +2,22 @@
     <div class="container">
         <div class="row justify-content-center d-block d-lg-none paddingTop80">
             <div class="col-12 text-center">
-                <h1 class="topic">KRUNGSRI PRIME</h1>
+                <img src={{ asset('/imgs/krungsri_prime.png') }} alt="krungsri prime">
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center marginTop20">
                 <h5 class="padingTop10 sub-topic">"ล้านแรกของคุณเก็บกับกรุงศรี<br><span class="paddingTop10">รับความพิเศษได้ก่อนใคร”</span></h5>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-1 d-none d-lg-block"></div>
-            <div class="col-12 col-lg-5 text-center paddingTop80">
+            <div class="col-12 col-lg-5 d-block d-md-none text-center marginTop30">
                 <img class="mobile-pic" src={{ asset('/imgs/mobileapp.png') }} alt="mobile application">
             </div>
-            <div class="col-12 col-lg-5 paddingTop80">
-                <div class="row justify-content-center d-none d-lg-block">
+            <div class="col-12 col-lg-5 d-none d-md-block text-center paddingTop80">
+                <img class="mobile-pic" src={{ asset('/imgs/mobileapp.png') }} alt="mobile application">
+            </div>
+            <div class="col-12 col-lg-5">
+                <div class="row justify-content-center d-none d-lg-block paddingTop80">
                     <div class="col-12 text-center">
                         <h1 class="topic">KRUNGSRI PRIME</h1>
                     </div>
@@ -46,7 +49,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center align-icon">
                             <div class="col-12 col-sm-2 text-center marginTop10">
                                 <img class="logo-prime" src={{ asset('/imgs/app-icon.png') }} alt="application icon">
                             </div>

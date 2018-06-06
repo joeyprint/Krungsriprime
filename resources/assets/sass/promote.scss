@@ -12,6 +12,14 @@
         margin-top: 10px;
     }
 
+    .marginTop20 {
+        margin-top: 20px;
+    }
+
+    .marginTop30 {
+        margin-top: 30px;
+    }
+
     .container-size {
         height: 750px;
     }
@@ -32,6 +40,7 @@
 
     .sub-topic {
         font-family: $krungsriMed;
+        line-height: 1.75;
         color: #414141
     }
 
@@ -59,8 +68,12 @@
         cursor: pointer;
     }
 
+    .align-icon {
+        align-items: center;
+    }
+
     .logo-prime {
-        height: 40px;
+        height: 60px;
     }
 
     .logo-store {

@@ -32,6 +32,10 @@
         color: #fff;
     }
 
+    .hash-text {
+        font-size: 1.3em;
+    }
+
     @media screen 
     and (max-device-width: 768px)
     and (min-device-width: 576px) {
@@ -44,5 +48,9 @@
     and (min-device-width: 0px) {
         position: relative;
         margin-top: 200;
+
+        .text {
+            font-size: 0.85em;
+        }
     }
 }

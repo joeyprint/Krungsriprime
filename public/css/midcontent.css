@@ -44,6 +44,9 @@
 #midcontent .white-text {
   color: #fff; }
 
+#midcontent .hash-text {
+  font-size: 1.3em; }
+
 @media screen and (max-device-width: 768px) and (min-device-width: 576px) {
   #midcontent {
     position: relative;
@@ -52,4 +55,6 @@
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
   #midcontent {
     position: relative;
-    margin-top: 200; } }
+    margin-top: 200; }
+    #midcontent .text {
+      font-size: 0.85em; } }
