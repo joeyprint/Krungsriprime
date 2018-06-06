@@ -5,7 +5,7 @@
                 <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
                     <div class="owl-stage-outer">
                         <div class="owl-stage">
-                            <div class="owl-item relative-position">
+                            <div class="owl-item relative-position" data-toggle="modal" data-target="#people1">
                                 <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
                                 <div class="text-center des-position">
                                     <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>SHUTTERS</p>
@@ -70,7 +70,7 @@
     <div class="container d-none d-md-block marginTop200">
         <div class="row justify-content-center">
             <div class="col-4 marginTop15">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-toggle="modal" data-target="#people1">
                     <div class="col-12">
                         <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">
                     </div>
@@ -143,6 +143,57 @@
                     <div class="col-10 text-center des-position">
                         <p><span class="yellow-text font-weight-bold">#FIRSTMILLION</span>PIECES</p>
                         <p class="des-people">PANG ASCHA <span class="yellow-text">-----</span> FIFTH SEASON BRAND</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal">
+        <div class="container-fluid">
+            <div class="modal fade modal-size" id="people1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="top-line"></div>
+                <div class="modal-dialog modal-dialog-centered max-width" role="document">
+                    <div class="container">
+                        <div class="row d-none d-md-block justify-content-end">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="close-button" aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="row d-block d-md-none justify-content-center">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="close-button" aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="row justify-content-start">
+                            <div class="col-12">
+                                <h4 class="text-uppercase yellow-text">Tavepong Pratoomwong</h4>
+                                <p class="text-uppercase">Photographer</p>
+                            </div>
+                            <div class="col-2 col-md-1 top-line marginT10B20"></div>
+                        </div>
+                        <div class="row justify-content-start">
+                            <div class="col-12">
+                                <p class="yellow-text">1 ใน 20 ช่างภาพสตรีทที่ทรงอิทธิพลที่สุดในปี 2015 จัดอันดับโดยเว็บไซต์ Streethunter.net</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center block-qoute-position no-gutters block-qoute">
+                            <div class="col-12 col-md-8">
+                                <img src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
+                            </div>
+                            <div class="col-12 col-md-4 block-qoute-position">
+                                <div class="row justify-content-center text-center qoute-position">
+                                    <div class="col-12">
+                                        <p class="no-margin qoute-text"><span class="string-qoute string-qoute-top">&#34;</span><br> ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน <br><span class="string-qoute">&#34;</span></p>                                        
+                                    </div>
+                                    <div class="col-10 block-bottom-qoute">
+                                        <p>ก้าวสู่ล้านต่อไปได้ไวขึ้น<br>พร้อมรับสิทธิประโยชน์ก่อนใคร</p>
+                                        <h4>KRUNGSRI PRIME</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
