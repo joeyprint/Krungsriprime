@@ -72,6 +72,9 @@
   position: relative;
   top: 7px; }
 
+#youngblock .click-cursor {
+  cursor: pointer; }
+
 #youngblock #modal .modal-size {
   max-width: 100%;
   width: 100%;

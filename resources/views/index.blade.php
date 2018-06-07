@@ -19,5 +19,8 @@
 @endsection
 
 @section('custom_script')
+    <script>
+        var asset_url = "{{ asset('') }}";
+    </script>
     <script src={{ asset('/js/youngblock.js') }}></script>
 @endsection
