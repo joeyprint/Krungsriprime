@@ -49,8 +49,7 @@
 
 @media screen and (max-device-width: 768px) and (min-device-width: 576px) {
   #midcontent {
-    position: relative;
-    margin-top: 200; } }
+    position: relative; } }
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
   #midcontent {
