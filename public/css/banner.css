@@ -59,6 +59,12 @@
 #banner .scroll-index {
   z-index: 2; }
 
+@media screen and (max-device-width: 992px) and (min-device-width: 768px) {
+  #banner .video-size {
+    width: 100%; }
+  #banner .btn-position {
+    margin-top: 350px; } }
+
 @media screen and (max-device-width: 767px) and (min-device-width: 576px) {
   #banner .btn-position {
     margin-top: 650px; } }

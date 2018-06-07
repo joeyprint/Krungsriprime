@@ -162,6 +162,8 @@
     height: auto; }
   #youngblock .margin-block {
     margin-top: 50px; }
+  #youngblock .position-for-ipad {
+    margin-top: 100px; }
   #youngblock .des-position {
     margin: 0px;
     position: absolute;
