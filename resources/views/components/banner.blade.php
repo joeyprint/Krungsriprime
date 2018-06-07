@@ -1,6 +1,6 @@
 <section id="banner" class="banner-position">
     <div class="container-fluid padding0">
-        <div class="row no-gutters justify-content-center">
+        <div class="row no-gutters justify-content-center video-for-ipad">
             <div class="col-12">
                 <video class="d-none d-md-block video-size" src={{ asset('/imgs/Firstmillion_banner.mp4') }} preload="auto" autoplay></video>
                 <video class="d-md-none video-size" src={{ asset('/imgs/Firstmillion_banner_Mobile.mp4') }} autoplay></video>
@@ -9,7 +9,7 @@
         <div class="row justify-content-center btn-position scroll-index no-gutters">
             <div class="col-12 text-center">
                 <img src="/imgs/down.png" alt="scroll-down vector">
-                <p class="marginTop10">SCROLL DOWN</p>
+                <p class="marginTop10 text-for-ipad">SCROLL DOWN</p>
             </div>
         </div>
     </div>

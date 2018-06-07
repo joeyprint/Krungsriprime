@@ -51,6 +51,54 @@
     .scroll-index {
         z-index: 2;
     }
+
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 300px;
+        }
+
+        .text-for-ipad {
+            font-size: 6pt;
+        }
+    }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 450px;
+        }
+
+        .text-for-ipad {
+            font-size: 6pt;
+        }
+    }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 450px;
+        }
+
+        .text-for-ipad {
+            font-size: 6pt;
+        }
+    }
 }
 
 .banner-position {
