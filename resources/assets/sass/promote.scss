@@ -97,51 +97,92 @@
     .logo-store {
         height: 40px;
     }
-}
 
-@media screen 
-and (max-device-width: 768px)
-and (min-device-width: 576px) {
-    .mobile-pic {
-        width: auto;
-        height: 300px;
+    @media screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 991px) {
+        .text-block-position {
+            left: 0px !important;
+        }
+
+        .mobile-pic {
+            width: auto;
+            height: 300px;
+        }
+
+        .btn-goweb {
+            font-size: 10pt;
+        }
+
+        .des-block {
+            padding-right: 15px !important;
+        }
     }
 
-    .btn-goweb {
-        font-size: 10pt;
-    }
-}
+    @media screen 
+    and (max-device-width: 768px)
+    and (min-device-width: 576px) {
+        .text-block-position {
+            left: 0px !important;
+        }
 
-@media screen 
-and (max-device-width: 576px)
-and (min-device-width: 0px) {
-    .text-block-position {
-        left: 0px !important;
+        .mobile-pic {
+            width: auto;
+            height: 300px;
+        }
+
+        .btn-goweb {
+            font-size: 10pt;
+        }
+
+        .des-block {
+            padding-right: 15px !important;
+        }
     }
+
+    @media screen 
+    and (max-device-width: 576px)
+    and (min-device-width: 0px) {
+        .text-block-position {
+            left: 0px !important;
+        }
+        
+        .mobile-pic {
+            width: auto;
+            height: 300px;
+        }
+
+        .des-block {
+            padding-right: 15px !important;
+        }
+
+        .btn-goweb {
+            font-size: 8pt;
+        }
+
+        .logo-prime {
+            height: 80px !important;
+        }
+
+        .logo-store {
+            width: auto;
+            height: 40px !important;
+        }
+
+        .marginTop25 {
+            margin-top: 25px;
+        }
+    }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) {
+        
+
+        .mobile-pic {
+            width: 100%;
+            height: auto;
+        }
     
-    .mobile-pic {
-        width: auto;
-        height: 300px;
-    }
-
-    .des-block {
-        padding-right: 15px !important;
-    }
-
-    .btn-goweb {
-        font-size: 8pt;
-    }
-
-    .logo-prime {
-        height: 80px !important;
-    }
-
-    .logo-store {
-        width: auto;
-        height: 40px !important;
-    }
-
-    .marginTop25 {
-        margin-top: 25px;
     }
 }
