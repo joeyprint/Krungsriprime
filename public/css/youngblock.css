@@ -44,13 +44,15 @@
   margin-top: -140px; }
 
 #youngblock .hashtag-million-text {
-  font-family: "Conv_krungsri_con_med-webfont"; }
+  font-family: "Conv_krungsri_con_med-webfont";
+  letter-spacing: 4px; }
 
 #youngblock .yellow-text {
   color: #ffd400; }
 
 #youngblock .des-people {
-  font-size: 6pt; }
+  font-size: 6pt;
+  letter-spacing: 1px; }
 
 #youngblock .des-people-position {
   position: relative;
