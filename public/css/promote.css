@@ -79,6 +79,10 @@
     height: 60px; }
   #promote .logo-store {
     height: 40px; }
+  @media only screen and (device-width: 1024px) and (device-height: 768px) {
+    #promote .mobile-pic {
+      width: 100%;
+      height: auto; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
     #promote .text-block-position {
       left: 0px !important; }
@@ -110,15 +114,12 @@
     #promote .des-block {
       padding-right: 15px !important; }
     #promote .btn-goweb {
-      font-size: 6pt; }
+      font-size: 8pt;
+      margin: 30 20; }
     #promote .logo-prime {
-      height: 60px !important; }
+      height: 80px !important; }
     #promote .logo-store {
       width: auto;
       height: 30px !important; }
     #promote .marginTop25 {
       margin-top: 25px; } }
-  @media only screen and (device-width: 1024px) and (device-height: 768px) {
-    #promote .mobile-pic {
-      width: 100%;
-      height: auto; } }

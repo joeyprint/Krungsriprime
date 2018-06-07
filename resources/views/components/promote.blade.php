@@ -30,7 +30,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 des-block">
-                        <p class="description paddingTop10 text-justify">
+                        <p class="description paddingTop10">
                             ที่พร้อมพาคุณไปให้ไกลขึ้น ให้คุณรับพิเศษก่อนใคร ด้วยสิทธิประโยชน์
                             ทางด้านการเงิน และไลฟ์สไตล์ เพื่อเติมเต็มชีวิต สำหรับลูกค้าธนาคาร
                             กรุงศรีอยุธยา ที่มีเงินฝาก และ/หรือการลงทุนในกองทุน รวมของ

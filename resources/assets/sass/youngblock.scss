@@ -148,6 +148,48 @@
         }
     }
 
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .img-for-ipad {
+            width: 295px;
+            height: auto;
+        }
+
+        .des-people {
+            font-size: 4pt;
+        }
+
+        .des-position {
+            top: 20px;
+        }
+
+        .position-for-ipad {
+            margin-top: 120px;
+        }
+    }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) {
+        .img-for-ipad {
+            width: 295px;
+            height: auto;
+        }
+
+        .hidden-for-ipad {
+            visibility: hidden;
+        }
+
+        .des-position {
+            bottom: 50px;
+        }
+
+        .position-for-ipad {
+            margin-top: 120px;
+        }
+    }
+
     @media screen 
     and (max-device-width: 992px)
     and (min-device-width: 768px) {
@@ -193,6 +235,28 @@
 
         .container {
             max-width: 90%;
+        }
+    }
+
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) {
+        .img-for-ipad {
+            width: 215px;
+            height: auto;
+        }
+
+        .hidden-for-ipad {
+            visibility: hidden;
+        }
+
+        .des-position {
+            top: 65%;
+            left: 53%;
+        }
+
+        .position-for-ipad {
+            margin-top: 120px;
         }
     }
 
@@ -295,70 +359,6 @@
         .qoute-size {
             width: auto;
             height: 10px;
-        }
-    }
-
-    @media only screen
-    and (device-width: 768px)
-    and (device-height: 1024px) {
-        .img-for-ipad {
-            width: 215px;
-            height: auto;
-        }
-
-        .hidden-for-ipad {
-            visibility: hidden;
-        }
-
-        .des-position {
-            top: 65%;
-            left: 53%;
-        }
-
-        .position-for-ipad {
-            margin-top: 120px;
-        }
-    }
-
-    @media only screen
-    and (device-width: 1024px)
-    and (device-height: 768px) {
-        .img-for-ipad {
-            width: 295px;
-            height: auto;
-        }
-
-        .hidden-for-ipad {
-            visibility: hidden;
-        }
-
-        .des-position {
-            bottom: 50px;
-        }
-
-        .position-for-ipad {
-            margin-top: 120px;
-        }
-    }
-
-    @media only screen
-    and (device-width: 1024px)
-    and (device-height: 1366px) {
-        .img-for-ipad {
-            width: 295px;
-            height: auto;
-        }
-
-        .des-people {
-            font-size: 4pt;
-        }
-
-        .des-position {
-            top: 20px;
-        }
-
-        .position-for-ipad {
-            margin-top: 120px;
         }
     }
 }

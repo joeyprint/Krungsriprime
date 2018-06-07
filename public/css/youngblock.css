@@ -134,6 +134,28 @@
   #youngblock #modal .block-bottom-qoute .logo {
     width: 100%; }
 
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  #youngblock .img-for-ipad {
+    width: 295px;
+    height: auto; }
+  #youngblock .des-people {
+    font-size: 4pt; }
+  #youngblock .des-position {
+    top: 20px; }
+  #youngblock .position-for-ipad {
+    margin-top: 120px; } }
+
+@media only screen and (device-width: 1024px) and (device-height: 768px) {
+  #youngblock .img-for-ipad {
+    width: 295px;
+    height: auto; }
+  #youngblock .hidden-for-ipad {
+    visibility: hidden; }
+  #youngblock .des-position {
+    bottom: 50px; }
+  #youngblock .position-for-ipad {
+    margin-top: 120px; } }
+
 @media screen and (max-device-width: 992px) and (min-device-width: 768px) {
   #youngblock .img-for-tablet {
     width: 215px;
@@ -161,6 +183,18 @@
     font-size: 8pt; }
   #youngblock .container {
     max-width: 90%; } }
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #youngblock .img-for-ipad {
+    width: 215px;
+    height: auto; }
+  #youngblock .hidden-for-ipad {
+    visibility: hidden; }
+  #youngblock .des-position {
+    top: 65%;
+    left: 53%; }
+  #youngblock .position-for-ipad {
+    margin-top: 120px; } }
 
 @media screen and (max-device-width: 767px) and (min-device-width: 576px) {
   #youngblock .margin-block {
@@ -222,37 +256,3 @@
   #youngblock .qoute-size {
     width: auto;
     height: 10px; } }
-
-@media only screen and (device-width: 768px) and (device-height: 1024px) {
-  #youngblock .img-for-ipad {
-    width: 215px;
-    height: auto; }
-  #youngblock .hidden-for-ipad {
-    visibility: hidden; }
-  #youngblock .des-position {
-    top: 65%;
-    left: 53%; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; } }
-
-@media only screen and (device-width: 1024px) and (device-height: 768px) {
-  #youngblock .img-for-ipad {
-    width: 295px;
-    height: auto; }
-  #youngblock .hidden-for-ipad {
-    visibility: hidden; }
-  #youngblock .des-position {
-    bottom: 50px; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; } }
-
-@media only screen and (device-width: 1024px) and (device-height: 1366px) {
-  #youngblock .img-for-ipad {
-    width: 295px;
-    height: auto; }
-  #youngblock .des-people {
-    font-size: 4pt; }
-  #youngblock .des-position {
-    top: 20px; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; } }

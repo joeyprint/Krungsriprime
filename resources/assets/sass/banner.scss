@@ -53,6 +53,12 @@
     }
 
     @media screen 
+    and (max-device-width: 992px)
+    and (min-device-width: 768px) {
+        
+    }
+
+    @media screen 
     and (max-device-width: 767px)
     and (min-device-width: 576px) {
         .btn-position {

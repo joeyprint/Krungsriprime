@@ -98,6 +98,15 @@
         height: 40px;
     }
 
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) {
+        .mobile-pic {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
     @media screen 
     and (min-device-width: 768px)
     and (max-device-width: 991px) {
@@ -161,11 +170,12 @@
         }
 
         .btn-goweb {
-            font-size: 6pt;
+            font-size: 8pt;
+            margin: 30 20;
         }
 
         .logo-prime {
-            height: 60px !important;
+            height: 80px !important;
         }
 
         .logo-store {
@@ -176,15 +186,5 @@
         .marginTop25 {
             margin-top: 25px;
         }
-    }
-
-    @media only screen
-    and (device-width: 1024px)
-    and (device-height: 768px) {
-        .mobile-pic {
-            width: 100%;
-            height: auto;
-        }
-    
     }
 }
