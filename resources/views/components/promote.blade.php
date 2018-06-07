@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center d-block d-lg-none paddingTop80">
             <div class="col-12 text-center">
-                <img src={{ asset('/imgs/krungsri_prime.png') }} alt="krungsri prime">
+                <img class="logo" src={{ asset('/imgs/krungsri_prime.png') }} alt="krungsri prime">
             </div>
             <div class="col-12 text-center marginTop20">
                 <h5 class="padingTop10 sub-topic">"ล้านแรกของคุณเก็บกับกรุงศรี<br><span class="paddingTop10">รับความพิเศษได้ก่อนใคร”</span></h5>

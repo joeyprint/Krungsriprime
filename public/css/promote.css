@@ -100,20 +100,22 @@
     #promote .des-block {
       padding-right: 15px !important; } }
   @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+    #promote .logo {
+      width: 100%; }
     #promote .text-block-position {
       left: 0px !important; }
     #promote .mobile-pic {
-      width: auto;
-      height: 300px; }
+      width: 100%;
+      height: auto; }
     #promote .des-block {
       padding-right: 15px !important; }
     #promote .btn-goweb {
-      font-size: 8pt; }
+      font-size: 6pt; }
     #promote .logo-prime {
-      height: 80px !important; }
+      height: 60px !important; }
     #promote .logo-store {
       width: auto;
-      height: 40px !important; }
+      height: 30px !important; }
     #promote .marginTop25 {
       margin-top: 25px; } }
   @media only screen and (device-width: 1024px) and (device-height: 768px) {

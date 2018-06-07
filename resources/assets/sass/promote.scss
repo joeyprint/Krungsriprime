@@ -143,13 +143,17 @@
     @media screen 
     and (max-device-width: 576px)
     and (min-device-width: 0px) {
+        .logo {
+            width: 100%;
+        }
+
         .text-block-position {
             left: 0px !important;
         }
         
         .mobile-pic {
-            width: auto;
-            height: 300px;
+            width: 100%;
+            height: auto;
         }
 
         .des-block {
@@ -157,16 +161,16 @@
         }
 
         .btn-goweb {
-            font-size: 8pt;
+            font-size: 6pt;
         }
 
         .logo-prime {
-            height: 80px !important;
+            height: 60px !important;
         }
 
         .logo-store {
             width: auto;
-            height: 40px !important;
+            height: 30px !important;
         }
 
         .marginTop25 {
@@ -177,8 +181,6 @@
     @media only screen
     and (device-width: 1024px)
     and (device-height: 768px) {
-        
-
         .mobile-pic {
             width: 100%;
             height: auto;
