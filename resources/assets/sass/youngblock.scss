@@ -151,6 +151,11 @@
     @media screen 
     and (max-device-width: 992px)
     and (min-device-width: 768px) {
+        .img-for-tablet {
+            width: 215px;
+            height: auto;
+        }
+
         .margin-block {
             margin-top: 50px;
         }
@@ -194,12 +199,9 @@
     @media screen 
     and (max-device-width: 767px)
     and (min-device-width: 576px) {
-        .mobile-modal {
-            // margin-top: 150px !important;
-        }
 
         .margin-block {
-            margin-top: 50px;
+            margin-top: 200px !important;
         }
 
         .des-position {
@@ -242,7 +244,7 @@
     and (max-device-width: 576px)
     and (min-device-width: 0px) {
         .mobile-modal {
-            margin-top: 190px !important;
+            margin-top: 220px !important;
         }
 
         .margin-block {

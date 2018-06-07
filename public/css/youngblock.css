@@ -135,6 +135,9 @@
     width: 100%; }
 
 @media screen and (max-device-width: 992px) and (min-device-width: 768px) {
+  #youngblock .img-for-tablet {
+    width: 215px;
+    height: auto; }
   #youngblock .margin-block {
     margin-top: 50px; }
   #youngblock .des-position {
@@ -161,7 +164,7 @@
 
 @media screen and (max-device-width: 767px) and (min-device-width: 576px) {
   #youngblock .margin-block {
-    margin-top: 50px; }
+    margin-top: 200px !important; }
   #youngblock .des-position {
     margin: 0px;
     position: absolute;
@@ -186,7 +189,7 @@
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
   #youngblock .mobile-modal {
-    margin-top: 190px !important; }
+    margin-top: 220px !important; }
   #youngblock .margin-block {
     margin-top: 50px; }
   #youngblock .des-position {
