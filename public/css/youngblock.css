@@ -106,7 +106,7 @@
   max-height: 100%;
   width: 80%;
   top: 50%;
-  left: 50%;
+  left: 54%;
   transform: translate(-50%, -50%); }
 
 #youngblock #modal .qoute-text {
@@ -114,18 +114,27 @@
   font-size: 16pt; }
 
 #youngblock #modal .string-qoute {
-  font-size: 3em; }
+  font-size: 1em;
+  position: relative;
+  bottom: 25px; }
 
 #youngblock #modal .string-qoute-top {
   position: relative;
-  top: 25px; }
+  top: -25; }
+
+#youngblock #modal .string-qoute-down {
+  position: relative;
+  bottom: 10px; }
 
 #youngblock #modal .block-bottom-qoute {
+  margin-top: 20px;
   border-top: 3px solid #ffd400;
   border-bottom: 3px solid #ffd400;
   padding: 10px; }
+  #youngblock #modal .block-bottom-qoute .logo {
+    width: 100%; }
 
-@media screen and (max-device-width: 768px) and (min-device-width: 576px) {
+@media screen and (max-device-width: 992px) and (min-device-width: 768px) {
   #youngblock .margin-block {
     margin-top: 50px; }
   #youngblock .des-position {
@@ -136,25 +145,48 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  #youngblock .block-close-position {
-    position: relative;
-    margin-top: -100px;
-    top: -120px; }
-  #youngblock .close-position {
+  #youngblock .qoute-position {
+    margin-top: 20px; }
+  #youngblock .qoute-text {
+    font-size: 10pt !important; }
+  #youngblock .block-bottom-qoute {
+    margin-bottom: 50px; }
+  #youngblock .qoute-size {
+    width: auto;
+    height: 10px; }
+  #youngblock .concept-text {
+    font-size: 8pt; }
+  #youngblock .container {
+    max-width: 90%; } }
+
+@media screen and (max-device-width: 767px) and (min-device-width: 576px) {
+  #youngblock .margin-block {
+    margin-top: 50px; }
+  #youngblock .des-position {
+    margin: 0px;
     position: absolute;
     max-width: 100%;
     max-height: 100%;
+    top: 50%;
     left: 50%;
-    top: 50;
     transform: translate(-50%, -50%); }
   #youngblock .qoute-position {
-    margin: 0; }
+    margin-top: 20px; }
   #youngblock .qoute-text {
-    font-size: 12pt !important; }
+    font-size: 10pt !important; }
   #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  #youngblock .block-qoute {
+    height: 350px; }
+  #youngblock .qoute-size {
+    width: auto;
+    height: 10px; }
+  #youngblock .concept-text {
+    font-size: 8pt; } }
 
 @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  #youngblock .mobile-modal {
+    margin-top: 190px !important; }
   #youngblock .margin-block {
     margin-top: 50px; }
   #youngblock .des-position {
@@ -177,11 +209,16 @@
     top: 50;
     transform: translate(-50%, -50%); }
   #youngblock .qoute-position {
-    margin: 0; }
+    margin-top: 20px; }
   #youngblock .qoute-text {
-    font-size: 12pt !important; }
+    font-size: 10pt !important; }
   #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  #youngblock .block-qoute {
+    height: 350px; }
+  #youngblock .qoute-size {
+    width: auto;
+    height: 10px; } }
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
   #youngblock .img-for-ipad {

@@ -210,8 +210,8 @@
         <div class="container-fluid">
             <div class="modal fade modal-size" id="people1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="top-line"></div>
-                <div class="modal-dialog modal-dialog-centered max-width" role="document">
-                    <div class="container">
+                <div class="modal-dialog modal-dialog-centered max-width mobile-modal" role="document">
+                    <div class="container ">
                         <div class="row justify-content-end block-close-position">
                             <button type="button" class="close close-position" data-dismiss="modal" aria-label="Close">
                                 <span class="close-button" aria-hidden="true">&times;</span>
@@ -230,18 +230,30 @@
                                 <p class="yellow-text">1 ใน 20 ช่างภาพสตรีทที่ทรงอิทธิพลที่สุดในปี 2015 จัดอันดับโดยเว็บไซต์ Streethunter.net</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center block-qoute-position no-gutters block-qoute">
+                        <div class="row justify-content-center block-qoute-position no-gutters">
                             <div class="col-12 col-md-8">
                                 <img src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
                             </div>
-                            <div class="col-12 col-md-4 block-qoute-position">
-                                <div class="row justify-content-center text-center qoute-position">
-                                    <div class="col-12">
-                                        <p class="no-margin qoute-text"><span class="string-qoute string-qoute-top">&#34;</span><br> ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน <br><span class="string-qoute">&#34;</span></p>                                        
+                            <div class="col-12 col-md-4 block-qoute-position block-qoute">
+                                <div class="row justify-content-center qoute-position">
+                                    <div class="col-12 text-center">
+                                        <p class="no-margin qoute-text">
+                                            <span class="string-qoute-top">
+                                                <img class="qoute-size" src={{ asset('/imgs/upquote.png') }} alt="upquote">
+                                            </span>
+                                            <br>
+                                                <span class="string-qoute">
+                                                    ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน
+                                                </span>
+                                            <br>
+                                            <span class="string-qoute-down">
+                                                <img class="qoute-size" src={{ asset('/imgs/downquote.png') }} alt="downquote">
+                                            </span>
+                                        </p>                                        
                                     </div>
-                                    <div class="col-10 block-bottom-qoute">
-                                        <p>ก้าวสู่ล้านต่อไปได้ไวขึ้น<br>พร้อมรับสิทธิประโยชน์ก่อนใคร</p>
-                                        <h4>KRUNGSRI PRIME</h4>
+                                    <div class="col-10 block-bottom-qoute text-center">
+                                        <p class="concept-text">ก้าวสู่ล้านต่อไปได้ไวขึ้น<br>พร้อมรับสิทธิประโยชน์ก่อนใคร</p>
+                                        <img class="logo" src={{ asset('/imgs/krungsri_prime.png') }} alt="krungsri prime">
                                     </div>
                                 </div>
                             </div>
