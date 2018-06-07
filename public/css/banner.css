@@ -63,12 +63,20 @@
   #banner .btn-position {
     margin-top: 650px; } }
 
+@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  #banner .video-size {
+    width: 100%; }
+  #banner .btn-position {
+    margin-top: 400px; }
+  #banner .scroll-text {
+    font-size: 8pt; } }
+
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
   #banner .video-size {
     width: 100%; }
   #banner .btn-position {
     margin-top: 300px; }
-  #banner .text-for-ipad {
+  #banner .scroll-text {
     font-size: 6pt; } }
 
 @media only screen and (device-width: 1024px) and (device-height: 768px) {
@@ -76,7 +84,7 @@
     width: 100%; }
   #banner .btn-position {
     margin-top: 450px; }
-  #banner .text-for-ipad {
+  #banner .scroll-text {
     font-size: 6pt; } }
 
 @media only screen and (device-width: 1024px) and (device-height: 1366px) {
@@ -84,7 +92,7 @@
     width: 100%; }
   #banner .btn-position {
     margin-top: 450px; }
-  #banner .text-for-ipad {
+  #banner .scroll-text {
     font-size: 6pt; } }
 
 .banner-position {

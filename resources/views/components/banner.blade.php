@@ -9,7 +9,7 @@
         <div class="row justify-content-center btn-position scroll-index no-gutters">
             <div class="col-12 text-center">
                 <img src="/imgs/down.png" alt="scroll-down vector">
-                <p class="marginTop10 text-for-ipad">SCROLL DOWN</p>
+                <p class="marginTop10 scroll-text">SCROLL DOWN</p>
             </div>
         </div>
     </div>

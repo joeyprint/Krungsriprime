@@ -60,6 +60,22 @@
         }
     }
 
+    @media screen 
+    and (max-device-width: 576px)
+    and (min-device-width: 0px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 400px;
+        }
+
+        .scroll-text {
+            font-size: 8pt;
+        }
+    }
+
     @media only screen
     and (device-width: 768px)
     and (device-height: 1024px) {
@@ -71,7 +87,7 @@
             margin-top: 300px;
         }
 
-        .text-for-ipad {
+        .scroll-text {
             font-size: 6pt;
         }
     }
@@ -87,7 +103,7 @@
             margin-top: 450px;
         }
 
-        .text-for-ipad {
+        .scroll-text {
             font-size: 6pt;
         }
     }
@@ -103,7 +119,7 @@
             margin-top: 450px;
         }
 
-        .text-for-ipad {
+        .scroll-text {
             font-size: 6pt;
         }
     }
