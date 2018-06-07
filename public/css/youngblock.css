@@ -182,3 +182,37 @@
     font-size: 12pt !important; }
   #youngblock .block-bottom-qoute {
     margin-bottom: 50px; } }
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #youngblock .img-for-ipad {
+    width: 225px;
+    height: auto; }
+  #youngblock .hidden-for-ipad {
+    visibility: hidden; }
+  #youngblock .des-position {
+    top: 65%;
+    left: 53%; }
+  #youngblock .position-for-ipad {
+    margin-top: 100px; } }
+
+@media only screen and (device-width: 1024px) and (device-height: 768px) {
+  #youngblock .img-for-ipad {
+    width: 295px;
+    height: auto; }
+  #youngblock .hidden-for-ipad {
+    visibility: hidden; }
+  #youngblock .des-position {
+    bottom: 50px; }
+  #youngblock .position-for-ipad {
+    margin-top: 100px; } }
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+  #youngblock .img-for-ipad {
+    width: 295px;
+    height: auto; }
+  #youngblock .des-people {
+    font-size: 4pt; }
+  #youngblock .des-position {
+    top: 20px; }
+  #youngblock .position-for-ipad {
+    margin-top: 100px; } }

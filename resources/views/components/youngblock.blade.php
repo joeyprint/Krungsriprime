@@ -67,16 +67,16 @@
             </div>
         </div>
     </div>
-    <div class="container d-none d-md-block marginTop200">
+    <div class="container d-none d-md-block marginTop200 position-for-ipad">
         <div class="row justify-content-center">
             <div class="col-4 marginTop15">
                 <div class="row justify-content-center" data-toggle="modal" data-target="#people1">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people1.png') }} alt="people 1">
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people1.png') }} alt="people 1">
                     </div>
                     <div class="col-12 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">TAVEPONG PRATOOMWONG</p>
                             </div>
@@ -91,11 +91,11 @@
             <div class="col-4 marginTop15 column2-position">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">BAM PITIPATT</p>
                             </div>
@@ -110,11 +110,11 @@
             <div class="col-4 marginTop15">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">MAY SAMITADA</p>
                             </div>
@@ -129,11 +129,11 @@
             <div class="col-4 marginTop15">
                 <div class="row justify-content-center des-align">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people4.png') }} alt="people 4">
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people4.png') }} alt="people 4">
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">FONGBEER</p>
                             </div>
@@ -148,11 +148,11 @@
             <div class="col-4 marginTop15 column2-position">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">BOW CHOMPUNOOD</p>
                             </div>
@@ -167,11 +167,11 @@
             <div class="col-4 marginTop15">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-5 text-right">
                                 <p class="des-people no-margin">HAPPY NANC</p>
                             </div>
@@ -186,11 +186,11 @@
             <div class="col-4 marginTop15 column2-position">
                 <div class="row justify-content-center">
                     <div class="col-12">
-                        <img class="block-shadow" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
+                        <img class="block-shadow img-for-ipad" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
                     </div>
                     <div class="col-10 text-center des-position hashtag-million-text">
                         <p><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
-                        <div class="row justify-content-center des-people-position">
+                        <div class="row justify-content-center des-people-position hidden-for-ipad">
                             <div class="col-4 text-right">
                                 <p class="des-people no-margin">PANG ASCHA</p>
                             </div>
