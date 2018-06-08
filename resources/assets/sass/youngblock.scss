@@ -58,6 +58,15 @@
         letter-spacing: 4px;
     }
 
+    .click-more {
+        opacity: 0;
+        transition: 1s;
+    }
+
+    // .click-more.active {
+    //     opacity: 1;
+    // }
+
     .yellow-text {
         color: #ffd400;
     }

@@ -65,6 +65,10 @@
   font-family: "Conv_krungsri_con_med-webfont";
   letter-spacing: 4px; }
 
+#youngblock .click-more {
+  opacity: 0;
+  transition: 1s; }
+
 #youngblock .yellow-text {
   color: #ffd400; }
 

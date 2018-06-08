@@ -1,20 +1,47 @@
 var owl = $('.owl-carousel');
+
+owl.on('initialized.owl.carousel', function(property) {
+    $('.owl-item .click-more').css({ "opacity" : "1" });
+    $('.owl-prev').css({ "opacity" : "0" });
+    console.log('get-start'); 
+});
+
 owl.owlCarousel({
     center: true,    
     items: 1,
-    loop: true,
+    loop: false,
     margin: 20,
     nav: true,
     navClass: ['.owl-prev', 'owl-next'],
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
     autoWidth: true,
     responsive: {
         0 :{
             items: 2
         }
     }
+});
+
+owl.on('translate.owl.carousel', function(property) {
+    var current = property.item.index;
+
+    $('.owl-item .click-more').css({ "opacity" : "0" });
+
+    if(current == null) {
+        $('.owl-item .click-more').css({ "opacity" : "1" });
+    }
+    console.log(current);
+});
+
+owl.on('translated.owl.carousel', function(property) {
+    var current = property.item.index;
+
+    $('.owl-item.active .click-more').css({ "opacity" : "1" });
+
+    if(current === 6) {
+        $('.owl-next').css({ "opacity" : "0" });
+    }
+
+    console.log(current);
 });
 
 $('.owl-next').click(function() {
