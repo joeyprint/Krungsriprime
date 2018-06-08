@@ -93,7 +93,7 @@
                     </div>
                 </div>                       
             </div>
-            <div class="col-4 marginTop15 column2-position" data-aos="zoom-in">
+            <div class="col-4 marginTop15 column2-position">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
