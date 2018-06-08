@@ -1,11 +1,14 @@
 var owl = $('.owl-carousel');
 
+
+// Intitial Carousel Event Function
 owl.on('initialized.owl.carousel', function(property) {
     $('.owl-item .click-more').css({ "animation" : "fadeInDown 1s" , "opacity" : 1});
     $('.owl-prev').css({ "opacity" : "0" });
     console.log('get-start'); 
 });
 
+// Format of carousel
 owl.owlCarousel({
     center: true,    
     items: 1,
@@ -21,7 +24,11 @@ owl.owlCarousel({
     }
 });
 
+
+// Control carousel 
 owl.on('translate.owl.carousel', function(property) {
+
+    // Find Index
     var current = property.item.index;
 
     $('.owl-item .click-more').css({ "animation" : "fadeOutUp 1s" , "opacity" : 0 });
@@ -34,7 +41,7 @@ owl.on('translated.owl.carousel', function(property) {
 
     $('.owl-item.active .click-more').css({ "animation" : "fadeInDown 1s" , "opacity" : 1});
 
-     if (current === 6) {
+    if (current === 6) {
         $('.owl-next').css({ "opacity" : "0" });
     } else if (current === 0) {
         $('.owl-prev').css({ "opacity" : "0" });
