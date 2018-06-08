@@ -60,11 +60,11 @@
 
     .click-more {
         opacity: 0;
-        transition: 1s;
+        transition: 1.5s;
     }
 
-    // .click-more.active {
-    //     opacity: 1;
+    // .click-more .active {
+    //     animation: fadeInDown 1.5s;
     // }
 
     .yellow-text {
