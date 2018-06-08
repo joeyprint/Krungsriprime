@@ -32,6 +32,22 @@
         margin-top: -140px;
     }
 
+    .img-block {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+    }
+
+    .img-size {
+        width: 100%;
+    }
+
+    .img-people {
+        position: relative;
+        overflow: hidden;
+    }
+
     .hashtag-million-text {
         font-family: $krungsriMed;
         letter-spacing: 4px;
@@ -157,7 +173,7 @@
     @media only screen
     and (device-width: 1024px)
     and (device-height: 1366px) {
-        .img-for-tablet {
+        .img-size {
             width: 295px;
             height: auto;
         }
@@ -178,7 +194,7 @@
     @media only screen
     and (device-width: 1024px)
     and (device-height: 768px) {
-        .img-for-tablet {
+        .img-size {
             width: 295px;
             height: auto;
         }
@@ -199,7 +215,7 @@
     @media screen 
     and (max-device-width: 992px)
     and (min-device-width: 768px) {
-        .img-for-tablet {
+        .img-size {
             width: 215px;
             height: auto;
         }

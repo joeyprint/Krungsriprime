@@ -42,6 +42,10 @@ body {
     animation: moveTopDown 2s infinite backwards;
 }
 
+.img-people:hover {
+    animation: zoomImg 1s 1 forwards;
+}
+
 @-webkit-keyframes moveTopDown {
     0% {top: 0px;}
     50% {top: 20px;}
@@ -52,4 +56,14 @@ body {
     0% {top: 0px;}
     50% {top: 20px;}
     100% {top: 0px;}
+}
+
+@-webkit-keyframes zoomImg {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+
+@keyframes zoomImg {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
 }
