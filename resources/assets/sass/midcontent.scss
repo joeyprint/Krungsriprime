@@ -1,10 +1,16 @@
 @import 'variables';
 
 #midcontent {
+    .text-box {
+        position: relative;
+        min-width: 100%;
+        min-height: auto;
+        overflow: hidden;
+    }
+
     .line {
-        border-bottom: 3px solid;
-        border-top: 3px solid;
-        border-color: #ffd400;
+        position: relative;
+        border-top: 3px solid #ffd400;
     }
 
     .margin10 {
@@ -33,7 +39,7 @@
     }
 
     .hash-text {
-        font-size: 1.3em;
+        font-size: 2em;
     }
 
     @media screen 
