@@ -2,8 +2,6 @@
 
 #banner {
 
-    
-
     .padding0 {
         padding: 0px;
     }
@@ -52,51 +50,21 @@
         z-index: 2;
     }
 
-    @media screen 
-    and (max-device-width: 992px)
-    and (min-device-width: 768px) {
-        .video-size {
-            width: 100%;
-        }
-
-        .btn-position {
-            margin-top: 350px;
-        }
-    }
-
-    @media screen 
-    and (max-device-width: 767px)
-    and (min-device-width: 576px) {
-        .btn-position {
-            margin-top: 650px;
-        }
-    }
-
-    @media screen 
-    and (max-device-width: 576px)
-    and (min-device-width: 0px) {
-        .video-size {
-            width: 100%;
-        }
-
-        .btn-position {
-            margin-top: 400px;
-        }
-
-        .scroll-text {
-            font-size: 8pt;
-        }
+    .downarrow {
+        position: absolute;
+        margin-top: -30px;
+        margin-left: -10px;
     }
 
     @media only screen
-    and (device-width: 768px)
-    and (device-height: 1024px) {
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
         .video-size {
             width: 100%;
         }
 
         .btn-position {
-            margin-top: 300px;
+            margin-top: 450px;
         }
 
         .scroll-text {
@@ -120,19 +88,55 @@
         }
     }
 
-    @media only screen
-    and (device-width: 1024px)
-    and (device-height: 1366px) {
+    @media screen 
+    and (max-device-width: 992px)
+    and (min-device-width: 768px) {
         .video-size {
             width: 100%;
         }
 
         .btn-position {
-            margin-top: 450px;
+            margin-top: 350px;
+        }
+    }
+
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 300px;
         }
 
         .scroll-text {
             font-size: 6pt;
+        }
+    }
+
+    @media screen 
+    and (max-device-width: 767px)
+    and (min-device-width: 576px) {
+        .btn-position {
+            margin-top: 650px;
+        }
+    }
+
+    @media screen 
+    and (max-device-width: 576px)
+    and (min-device-width: 0px) {
+        .video-size {
+            width: 100%;
+        }
+
+        .btn-position {
+            margin-top: 120%;
+        }
+
+        .scroll-text {
+            font-size: 8pt;
         }
     }
 }

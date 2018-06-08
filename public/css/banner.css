@@ -59,29 +59,16 @@
 #banner .scroll-index {
   z-index: 2; }
 
-@media screen and (max-device-width: 992px) and (min-device-width: 768px) {
+#banner .downarrow {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -10px; }
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
   #banner .video-size {
     width: 100%; }
   #banner .btn-position {
-    margin-top: 350px; } }
-
-@media screen and (max-device-width: 767px) and (min-device-width: 576px) {
-  #banner .btn-position {
-    margin-top: 650px; } }
-
-@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
-  #banner .video-size {
-    width: 100%; }
-  #banner .btn-position {
-    margin-top: 400px; }
-  #banner .scroll-text {
-    font-size: 8pt; } }
-
-@media only screen and (device-width: 768px) and (device-height: 1024px) {
-  #banner .video-size {
-    width: 100%; }
-  #banner .btn-position {
-    margin-top: 300px; }
+    margin-top: 450px; }
   #banner .scroll-text {
     font-size: 6pt; } }
 
@@ -93,13 +80,31 @@
   #banner .scroll-text {
     font-size: 6pt; } }
 
-@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+@media screen and (max-device-width: 992px) and (min-device-width: 768px) {
   #banner .video-size {
     width: 100%; }
   #banner .btn-position {
-    margin-top: 450px; }
+    margin-top: 350px; } }
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #banner .video-size {
+    width: 100%; }
+  #banner .btn-position {
+    margin-top: 300px; }
   #banner .scroll-text {
     font-size: 6pt; } }
+
+@media screen and (max-device-width: 767px) and (min-device-width: 576px) {
+  #banner .btn-position {
+    margin-top: 650px; } }
+
+@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+  #banner .video-size {
+    width: 100%; }
+  #banner .btn-position {
+    margin-top: 120%; }
+  #banner .scroll-text {
+    font-size: 8pt; } }
 
 .banner-position {
   position: relative;

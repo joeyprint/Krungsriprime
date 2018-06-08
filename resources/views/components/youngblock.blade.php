@@ -209,7 +209,7 @@
     </div>
 
 
-    <div id="modal">
+    <div id="modal" class="animated bounceInUp">
         <div class="container-fluid">
             <div class="modal fade modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="top-line"></div>
