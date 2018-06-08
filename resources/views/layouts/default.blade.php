@@ -8,6 +8,7 @@
         <link rel="stylesheet" href={{ asset('/css/owl.theme.default.min.css') }}>
         <link rel="stylesheet" href={{ asset('/css/owl.theme.green.min.css') }}>
         <link rel="stylesheet" href={{ asset('/css/animate.css') }}>
+        <link rel="stylesheet" href={{ asset('/css/aos.css') }}>
 
         {{-- custom header --}}
         @yield('custom_head')
@@ -28,8 +29,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src={{ asset('/js/owl.carousel.js') }} ></script>
         <script src={{ asset('/js/owl.autoplay.js') }} ></script>
-        {{-- <script src={{ asset('/js/owl.navigation.js') }} ></script> --}}
         <script src={{ asset('/js/owl.animate.js') }} ></script>
+        <script src={{ asset('/js/aos.js') }}></script>
         
         {{-- script --}}
         @yield('custom_script')
