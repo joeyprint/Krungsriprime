@@ -21,6 +21,7 @@
 @section('custom_script')
     <script>
         var asset_url = "{{ asset('') }}";
+        AOS.init();
     </script>
     <script src={{ asset('/js/youngblock.js') }}></script>
 @endsection
