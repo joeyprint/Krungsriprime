@@ -10,11 +10,17 @@
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
                                 </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(1)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
+                                </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
                                 <img class="block-shadow img-size" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
+                                </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(2)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
                                 </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
@@ -22,11 +28,17 @@
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
                                 </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(3)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
+                                </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
                                 <img class="block-shadow img-size" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
+                                </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(4)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
                                 </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
@@ -34,11 +46,17 @@
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
                                 </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(5)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
+                                </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
                                 <img class="block-shadow img-size" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
+                                </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(6)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
                                 </div>
                             </div>
                             <div class="owl-item" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
@@ -46,22 +64,22 @@
                                 <div class="text-center des-position">
                                     <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
                                 </div>
+                                <div class="col-12 text-right" onclick="peopleDetail(7)">
+                                    <p class="text-uppercase qoute-text yellow-text animated fadeInDown">click to see detail</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-12 text-right click-cursor">
-                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                    </div> --}}
                     <div class="col-12 arrow-carousel">
                         <div class="row justify-content-center">
-                            <div class="col-5">
+                            <div class="col-6 text-left">
                                 <div class="owl-prev">
-                                    <img class="" src={{ asset('/imgs/left.png') }}>
+                                    <img src={{ asset('/imgs/left.png') }}>
                                 </div>
                             </div>
-                            <div class="col-5 text-right">
+                            <div class="col-6 text-right">
                                 <div class="owl-next">
-                                    <img class="" src={{ asset('/imgs/right.png') }}>
+                                    <img src={{ asset('/imgs/right.png') }}>
                                 </div>
                             </div>
                         </div>
