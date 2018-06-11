@@ -1,5 +1,5 @@
 <section id="youngblock">
-    <div class="container-fluid d-block d-md-none margin-block padding0">
+    <div class="container-fluid d-block d-lg-none margin-block padding0">
         <div class="row justify-content-center no-gutters">
             <div class="col-12">
                 <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <div class="container d-none d-md-block marginTop200 position-for-ipad">
+    <div class="container d-none d-lg-block marginTop200 position-for-ipad">
         <div class="row justify-content-center">
             <div class="col-4 marginTop15" data-aos="zoom-in">
                 <div class="img-block">

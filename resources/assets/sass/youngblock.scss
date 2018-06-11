@@ -281,6 +281,14 @@
     @media only screen
     and (device-width: 768px)
     and (device-height: 1024px) {
+        .img-block {
+            width: 100%;
+        }
+
+        .img-size {
+            width: 100%;
+        }
+
         .img-for-ipad {
             width: 215px;
             height: auto;

@@ -214,6 +214,10 @@
     max-width: 90%; } }
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #youngblock .img-block {
+    width: 100%; }
+  #youngblock .img-size {
+    width: 100%; }
   #youngblock .img-for-ipad {
     width: 215px;
     height: auto; }
