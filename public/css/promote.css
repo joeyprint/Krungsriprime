@@ -109,6 +109,7 @@
       padding-right: 15px !important; } }
   @media screen and (max-device-width: 576px) and (min-device-width: 0px) {
     #promote .logo {
+      padding: 0px 10px;
       width: 100%; }
     #promote .text-block-position {
       left: 0px !important; }

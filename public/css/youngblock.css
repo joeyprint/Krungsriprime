@@ -214,6 +214,8 @@
     max-width: 90%; } }
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #youngblock .margin-block {
+    margin-top: 20px; }
   #youngblock .img-block {
     width: 100%; }
   #youngblock .img-size {
