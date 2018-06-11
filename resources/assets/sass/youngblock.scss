@@ -95,6 +95,10 @@
     .click-cursor {
         cursor: pointer;
     }
+    
+    .cursor-of-block {
+        cursor: pointer;
+    }
 
     #modal {
         .concept-text {
@@ -159,6 +163,7 @@
             font-size: 1em;
             position: relative;
             bottom: 25px;
+            letter-spacing: 1.5;
         }
 
         .string-qoute-top {

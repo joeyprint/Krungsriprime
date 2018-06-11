@@ -95,6 +95,9 @@
 #youngblock .click-cursor {
   cursor: pointer; }
 
+#youngblock .cursor-of-block {
+  cursor: pointer; }
+
 #youngblock #modal .concept-text {
   line-height: 2;
   letter-spacing: 2;
@@ -146,7 +149,8 @@
 #youngblock #modal .string-qoute {
   font-size: 1em;
   position: relative;
-  bottom: 25px; }
+  bottom: 25px;
+  letter-spacing: 1.5; }
 
 #youngblock #modal .string-qoute-top {
   position: relative;

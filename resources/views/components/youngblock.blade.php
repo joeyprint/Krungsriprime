@@ -90,7 +90,7 @@
     </div>
     <div class="container d-none d-lg-block marginTop200 position-for-ipad">
         <div class="row justify-content-center">
-            <div class="col-4 marginTop15" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(1)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -111,7 +111,7 @@
                     </div>
                 </div>                       
             </div>
-            <div class="col-4 marginTop15 column2-position">
+            <div class="col-4 marginTop15 cursor-of-block column2-position">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15 column2-position" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block column2-position" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -195,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -216,7 +216,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15 column2-position" data-aos="zoom-in">
+            <div class="col-4 marginTop15 cursor-of-block column2-position" data-aos="zoom-in">
                 <div class="img-block">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
