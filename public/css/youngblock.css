@@ -110,12 +110,17 @@
   height: 100%;
   background-color: #414141; }
 
-#youngblock #modal .top-line {
+#youngblock #modal .line {
   border-top: 5px solid #ffd400;
   z-index: 1;
   position: relative;
   left: 15px;
   top: -5px; }
+
+#youngblock #modal .top-line {
+  border-top: 5px solid #ffd400;
+  z-index: 1;
+  position: relative; }
 
 #youngblock #modal .close-button {
   font-size: 2em;

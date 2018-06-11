@@ -243,7 +243,7 @@
 
     <div id="modal">
         <div class="container-fluid">
-            <div class="modal animated fadeInUp modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal animated slideInUp modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="top-line"></div>
                 <div class="modal-dialog modal-dialog-centered max-width mobile-modal" role="document">
                     <div class="container ">
@@ -257,7 +257,7 @@
                                 <h5 id="name" class="text-uppercase yellow-text font-weight-bold">Name</h5>
                                 <p id="job" class="text-uppercase">Job</p>
                             </div>
-                            <div class="col-2 col-md-1 top-line marginT10B20"></div>
+                            <div class="col-2 col-md-1 line marginT10B20"></div>
                         </div>
                         <div class="row justify-content-start">
                             <div class="col-12">

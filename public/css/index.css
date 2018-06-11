@@ -55,6 +55,9 @@ body {
 .img-people:hover {
   animation: zoomImg 1s 1 forwards; }
 
+.fade-modal-up {
+  animation: fade-modal-up 3s 1; }
+
 [data-aos="fade-center"] {
   opacity: 0; }
   [data-aos="fade-center"].aos-animate {

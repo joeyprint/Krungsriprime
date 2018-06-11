@@ -114,13 +114,19 @@
             height: 100%;
             background-color: $body-bg;
         }
-    
-        .top-line {
+
+        .line {
             border-top: 5px solid #ffd400;
             z-index: 1;
             position: relative;
             left: 15px;
             top: -5px;
+        }
+    
+        .top-line {
+            border-top: 5px solid #ffd400;
+            z-index: 1;
+            position: relative;
         }
 
         .close-button {
