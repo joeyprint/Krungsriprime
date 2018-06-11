@@ -82,6 +82,11 @@
     #promote .mobile-pic {
       width: 100%;
       height: auto; } }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    #promote .logo-store {
+      margin-top: 20px;
+      width: auto;
+      height: 40px; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
     #promote .text-block-position {
       left: 0px !important; }
@@ -119,6 +124,6 @@
       height: 80px !important; }
     #promote .logo-store {
       width: auto;
-      height: 30px !important; }
+      height: 40px !important; }
     #promote .marginTop25 {
       margin-top: 25px; } }
