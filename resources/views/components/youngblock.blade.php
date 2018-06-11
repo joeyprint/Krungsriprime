@@ -254,7 +254,7 @@
                         </div>
                         <div class="row justify-content-start">
                             <div class="col-12">
-                                <h5 id="name" class="text-uppercase yellow-text">Name</h5>
+                                <h5 id="name" class="text-uppercase yellow-text font-weight-bold">Name</h5>
                                 <p id="job" class="text-uppercase">Job</p>
                             </div>
                             <div class="col-2 col-md-1 top-line marginT10B20"></div>
