@@ -68,7 +68,7 @@
 
     @media screen 
     and (max-device-width: 576px)
-    and (min-device-width: 0px) {
+    and (min-device-width: 321px) {
         position: relative;
         margin-top: 100;
 
@@ -79,6 +79,22 @@
 
         .text {
             font-size: 0.8em;
+        }
+    }
+
+    @media screen 
+    and (max-device-width: 320px)
+    and (min-device-width: 0px) {
+        position: relative;
+        margin-top: 100;
+
+        .line {
+            border-top: 0.5px solid #ffd400;
+            border-bottom: 2px solid #ffd400;
+        }
+
+        .text {
+            font-size: 0.68em;
         }
     }
 }

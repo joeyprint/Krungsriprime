@@ -272,7 +272,7 @@
   #youngblock .concept-text {
     font-size: 8pt; } }
 
-@media screen and (max-device-width: 576px) and (min-device-width: 0px) {
+@media screen and (max-device-width: 576px) and (min-device-width: 321px) {
   #youngblock .mobile-modal {
     margin-top: 220px !important; }
   #youngblock .margin-block {
@@ -283,6 +283,50 @@
     max-width: 100%;
     max-height: 100%;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #youngblock .block-close-position {
+    position: relative;
+    margin-top: -100px !important;
+    top: -120px; }
+  #youngblock .close-position {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%, -50%); }
+  #youngblock .qoute-position {
+    margin-top: 20px; }
+  #youngblock .qoute-text {
+    font-size: 10pt !important; }
+  #youngblock .block-bottom-qoute {
+    margin-bottom: 50px; }
+  #youngblock .block-qoute {
+    height: 350px; }
+  #youngblock .qoute-size {
+    width: auto;
+    height: 10px; }
+  #youngblock .concept-text {
+    font-size: 8pt; } }
+
+@media screen and (max-device-width: 320px) and (min-device-width: 0px) {
+  #youngblock .img-block {
+    width: 90%;
+    height: 200px;
+    overflow: hidden; }
+  #youngblock .arrow-carousel {
+    top: 35%; }
+  #youngblock .mobile-modal {
+    margin-top: 220px !important; }
+  #youngblock .margin-block {
+    margin-top: 50px; }
+  #youngblock .des-position {
+    margin: 0;
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%); }
   #youngblock .block-close-position {
