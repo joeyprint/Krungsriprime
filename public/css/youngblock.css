@@ -114,7 +114,8 @@
   border-top: 5px solid #ffd400;
   z-index: 1;
   position: relative;
-  left: 15px; }
+  left: 15px;
+  top: -5px; }
 
 #youngblock #modal .close-button {
   font-size: 2em;
