@@ -55,6 +55,24 @@ body {
 .img-people:hover {
   animation: zoomImg 1s 1 forwards; }
 
+[data-aos="fade-center"] {
+  opacity: 0; }
+  [data-aos="fade-center"].aos-animate {
+    opacity: 1;
+    animation: fade-from-center 3s; }
+
+[data-aos="header-down"] {
+  opacity: 0; }
+  [data-aos="header-down"].aos-animate {
+    opacity: 1;
+    animation: fade-topic-down 3s; }
+
+[data-aos="header-up"] {
+  opacity: 0; }
+  [data-aos="header-up"].aos-animate {
+    opacity: 1;
+    animation: fade-topic-up 3s; }
+
 @keyframes moveTopDown {
   0% {
     top: 0px; }
@@ -68,3 +86,25 @@ body {
     transform: scale(1); }
   100% {
     transform: scale(1.2); } }
+
+@keyframes fade-from-center {
+  from {
+    opacity: 0;
+    margin-left: 50%;
+    width: 0%; }
+  to {
+    opacity: 1;
+    margin-left: 0%;
+    width: 100%; } }
+
+@keyframes fade-topic-down {
+  0% {
+    margin-top: -20px; }
+  100% {
+    margin-top: 0px; } }
+
+@keyframes fade-topic-up {
+  0% {
+    transform: translate(0%, 50%); }
+  100% {
+    transform: translate(0%, 0%); } }

@@ -11,15 +11,15 @@
                 </p>
             </div>
             <div class="col-11 col-sm-8 text-center margin10 d-none d-md-block">
-                <p class="line text-center aos-init" data-aos="zoom-in"></p>
-                <p class="margin20 text aos-init" data-aos="fade-down">
+                <p class="line" data-aos="fade-center" data-aos-duration="5000" data-aos-easing="linear"></p>
+                <p class="margin20 text" data-aos="header-down" data-aos-duration="5000" data-aos-easing="linear">
                     ร่วมแชร์โมเม้นต์ก้าวที่ล้าน ที่เป็นก้าวแห่งการเติบโต<br>
                     และก้าวแรกของความสำเร็จของคุณ เพียงแชร์เรื่องราวพร้อมติดแฮชแท็ก<br>
                 </p>
-                <p class="yellow-text hash-text aos-init" data-aos="fade-up">
+                <p class="yellow-text hash-text" data-aos="header-up" data-aos-duration="5000" data-aos-easing="linear">
                     # F <span class="white-text">I</span> R S T M I L L I O N
                 </p>
-                <p class="line text-center aos-init" data-aos="zoom-in"></p>
+                <p class="line text-center aos-init" data-aos="fade-center" data-aos-duration="5000" data-aos-easing="linear"></p>
             </div>
         </div>
     </div>

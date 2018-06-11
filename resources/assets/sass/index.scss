@@ -46,6 +46,34 @@ body {
     animation: zoomImg 1s 1 forwards;
 }
 
+// [aos="fade-center"].aos-init {
+//     opacity: 0;
+// }
+
+[data-aos="fade-center"] {
+    opacity: 0;
+    &.aos-animate{
+        opacity: 1;
+        animation: fade-from-center 3s;
+    }
+}
+
+[data-aos="header-down"] {
+    opacity: 0;
+    &.aos-animate{
+        opacity: 1;
+        animation: fade-topic-down 3s;
+    }
+}
+
+[data-aos="header-up"] {
+    opacity: 0;
+    &.aos-animate{
+        opacity: 1;
+        animation: fade-topic-up 3s;
+    }
+}
+
 @-webkit-keyframes moveTopDown {
     0% {top: 0px;}
     50% {top: 20px;}
@@ -66,4 +94,52 @@ body {
 @keyframes zoomImg {
     0% {transform: scale(1);}
     100% {transform: scale(1.2);}
+}
+
+@-webkit-keyframes fade-from-center {
+    from {
+        opacity: 0;
+        margin-left: 50%;
+        width: 0%; 
+    }
+  
+    to {
+        opacity: 1;
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes fade-from-center {
+    from {
+        opacity: 0;
+        margin-left: 50%;
+        width: 0%; 
+    }
+  
+    to {
+        opacity: 1;
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes fade-topic-down {
+    0% {margin-top: -20px;}
+    100% {margin-top: 0px;}
+}
+
+@keyframes fade-topic-down {
+    0% {margin-top: -20px;}
+    100% {margin-top: 0px;}
+}
+
+@-webkit-keyframes fade-topic-up {
+    0% {bottom: 0px;}
+    100% {bottom: -20px;}
+}
+
+@keyframes fade-topic-up {
+    0% {transform: translate(0%, 50%);}
+    100% {transform: translate(0%, 0%);}
 }
