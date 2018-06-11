@@ -42,13 +42,23 @@
         font-size: 2em;
     }
 
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) {
+        .line {
+            border-top: 0.5px solid #ffd400;
+            border-bottom: 0.5px solid #ffd400;
+        }
+    }
+
     @media screen 
     and (max-device-width: 768px)
     and (min-device-width: 576px) {
         position: relative;
 
         .line {
-            border-bottom: 3px solid #ffd400;
+            border-top: 0.5px solid #ffd400;
+            border-bottom: 0.5px solid #ffd400;
         }
         
         .text {
@@ -63,7 +73,8 @@
         margin-top: 100;
 
         .line {
-            border-bottom: 3px solid #ffd400;
+            border-top: 0.5px solid #ffd400;
+            border-bottom: 2px solid #ffd400;
         }
 
         .text {
