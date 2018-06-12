@@ -102,6 +102,9 @@
 #youngblock .cursor-of-block {
   cursor: pointer; }
 
+#youngblock .click-text {
+  font-size: 8pt; }
+
 #youngblock #modal .modal {
   border-top: 5px solid #ffd400; }
 

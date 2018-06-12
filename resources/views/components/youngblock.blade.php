@@ -21,7 +21,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(1)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
@@ -39,7 +39,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(2)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
@@ -57,7 +57,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(3)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(4)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
@@ -93,7 +93,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(5)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(6)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                                 <div class="owl-item" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
@@ -129,7 +129,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 text-right click-more" onclick="peopleDetail(7)">
-                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                        <p class="text-uppercase click-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                             </div>
