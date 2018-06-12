@@ -32,6 +32,10 @@
 #banner .marginBot30 {
   padding-bottom: 30px; }
 
+#banner .btn-fix {
+  position: relative;
+  top: -100px; }
+
 #banner .btn-position {
   position: relative;
   margin-top: 550px; }
@@ -45,7 +49,7 @@
   border-top: 3px solid;
   border-color: #ffd400; }
 
-#banner .video-size {
+#banner .bg-video video {
   position: absolute;
   min-width: 100%;
   min-height: 100%;

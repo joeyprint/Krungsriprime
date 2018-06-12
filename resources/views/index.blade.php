@@ -8,6 +8,7 @@
     <link rel="stylesheet" href={{ asset('/css/socialcard.css') }}>
     <link rel="stylesheet" href={{ asset('/css/promote.css') }}>
     <link rel="stylesheet" href={{ asset('/css/banner.css') }}>
+    <link rel="stylesheet" href={{ asset('/css/bigvideo.css') }}>
 @endsection
 
 @section('content')
@@ -24,4 +25,7 @@
         AOS.init();
     </script>
     <script src={{ asset('/js/youngblock.js') }}></script>
+    <script src={{ asset('js/jquery.vide.js') }} ></script>
+    <script src={{ asset('/js/banner.js') }}></script>
+
 @endsection

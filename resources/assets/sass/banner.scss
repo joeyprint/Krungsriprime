@@ -18,6 +18,11 @@
         padding-bottom: 30px;
     }
 
+    .btn-fix {
+        position: relative;
+        top: -100px;
+    }
+
     .btn-position {
         position: relative;
         margin-top: 550px;
@@ -34,7 +39,7 @@
         border-color: #ffd400;
     }
 
-    .video-size {
+    .bg-video video {
         position: absolute;
         min-width: 100%;
         min-height: 100%;
