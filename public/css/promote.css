@@ -75,9 +75,10 @@
     -ms-flex-align: center;
         align-items: center; }
   #promote .logo-prime {
-    height: 60px; }
+    height: 50px; }
   #promote .logo-store {
-    height: 40px; }
+    width: 100%;
+    height: auto; }
   @media only screen and (device-width: 1024px) and (device-height: 768px) {
     #promote .mobile-pic {
       width: 100%;
