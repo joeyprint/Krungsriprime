@@ -106,6 +106,10 @@
     }
 
     #modal {
+        .modal {
+            border-top: 5px solid #ffd400; 
+        }
+
         .concept-text {
             line-height: 2;
             letter-spacing: 2;
@@ -127,11 +131,9 @@
             left: 15px;
             top: -5px;
         }
-    
-        .top-line {
-            border-top: 5px solid #ffd400;
-            z-index: 1;
-            position: relative;
+
+        .block-close-position {
+            margin-top: 50px;
         }
 
         .close-button {
@@ -409,6 +411,10 @@
         .concept-text {
             font-size: 8pt;
         }
+
+        .modal {
+            padding-top: 200px;
+        }
     }
 
     @media screen 
@@ -459,6 +465,10 @@
             left: 50%;
             top: 50;
             transform: translate(-50%, -50%);
+        }
+
+        .modal {
+            padding-top: 200px;
         }
 
         .qoute-position {
@@ -539,6 +549,10 @@
             position: relative;
             margin-top: -100px !important;
             top: -120px;
+        }
+
+        .modal {
+            padding-top: 200px;
         }
 
         .close-position {

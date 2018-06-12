@@ -102,6 +102,9 @@
 #youngblock .cursor-of-block {
   cursor: pointer; }
 
+#youngblock #modal .modal {
+  border-top: 5px solid #ffd400; }
+
 #youngblock #modal .concept-text {
   line-height: 2;
   letter-spacing: 2;
@@ -121,10 +124,8 @@
   left: 15px;
   top: -5px; }
 
-#youngblock #modal .top-line {
-  border-top: 5px solid #ffd400;
-  z-index: 1;
-  position: relative; }
+#youngblock #modal .block-close-position {
+  margin-top: 50px; }
 
 #youngblock #modal .close-button {
   font-size: 2em;
@@ -297,7 +298,9 @@
     width: auto;
     height: 10px; }
   #youngblock .concept-text {
-    font-size: 8pt; } }
+    font-size: 8pt; }
+  #youngblock .modal {
+    padding-top: 200px; } }
 
 @media screen and (max-device-width: 576px) and (min-device-width: 321px) {
   #youngblock .img-block {
@@ -331,6 +334,8 @@
     left: 50%;
     top: 50;
     transform: translate(-50%, -50%); }
+  #youngblock .modal {
+    padding-top: 200px; }
   #youngblock .qoute-position {
     margin-top: 20px; }
   #youngblock .qoute-text {
@@ -377,6 +382,8 @@
     position: relative;
     margin-top: -100px !important;
     top: -120px; }
+  #youngblock .modal {
+    padding-top: 200px; }
   #youngblock .close-position {
     position: absolute;
     max-width: 100%;

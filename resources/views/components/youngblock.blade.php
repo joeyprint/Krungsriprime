@@ -304,9 +304,67 @@
             </div>
         </div>
     </div>
-
-
+      
     <div id="modal">
+        <div class="container-fluid">
+            <div class="modal animated slideInUp modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog-centered" role="document">
+                    <div class="top-line"></div>
+                    <div class="w-100">
+                        <div class="container">
+                            <div class="row justify-content-end block-close-position">
+                                <button type="button" class="close close-position" data-dismiss="modal" aria-label="Close">
+                                    <span class="close-button" aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-12">
+                                    <h5 id="name" class="text-uppercase yellow-text font-weight-bold">Name</h5>
+                                    <p id="job" class="text-uppercase">Job</p>
+                                </div>
+                                <div class="col-2 col-md-1 line marginT10B20"></div>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-12">
+                                    <p id="description" class="yellow-text">Description</p>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center block-qoute-position no-gutters">
+                                <div class="col-12 col-md-8">
+                                    <img id="picture" src="" alt="people 1" width="100%">
+                                </div>
+                                <div class="col-12 col-md-4 block-qoute-position block-qoute">
+                                    <div class="row justify-content-center qoute-position">
+                                        <div class="col-12 text-center">
+                                            <p class="no-margin qoute-text">
+                                                <span class="string-qoute-top">
+                                                    <img class="qoute-size" src={{ asset('/imgs/upquote.png') }} alt="upquote">
+                                                </span>
+                                                <br>
+                                                    <span id="quote" class="string-qoute">
+                                                        ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน
+                                                    </span>
+                                                <br>
+                                                <span class="string-qoute-down">
+                                                    <img class="qoute-size" src={{ asset('/imgs/downquote.png') }} alt="downquote">
+                                                </span>
+                                            </p>                                        
+                                        </div>
+                                        <div class="col-10 block-bottom-qoute text-center">
+                                            <p class="concept-text">ก้าวสู่ล้านต่อไปได้ไวขึ้น<br>พร้อมรับสิทธิประโยชน์ก่อนใคร</p>
+                                            <img class="logo" src={{ asset('/imgs/krungsri_prime_white.png') }} alt="krungsri prime">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div id="modal">
         <div class="container-fluid">
             <div class="modal animated slideInUp modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="top-line"></div>
@@ -361,5 +419,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 </section>
