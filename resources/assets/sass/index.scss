@@ -38,8 +38,14 @@ body {
     }
 }
 
+// animation
+
 .bounceTopDown {
     animation: moveTopDown 2s infinite backwards;
+}
+
+.img-people {
+    animation: zoomOutImg 1s 1 forwards;
 }
 
 .img-people:hover {
@@ -94,6 +100,16 @@ body {
 @keyframes zoomImg {
     0% {transform: scale(1);}
     100% {transform: scale(1.2);}
+}
+
+@-webkit-keyframes zoomOutImg {
+    0% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+@keyframes zoomOutImg {
+    0% {transform: scale(1.2);}
+    100% {transform: scale(1);}
 }
 
 @-webkit-keyframes fade-from-center {
