@@ -48,6 +48,10 @@
   top: 40%;
   transform: translate(0%, -50%); }
 
+#youngblock .arrow-size {
+  height: 30px;
+  width: auto; }
+
 #youngblock .img-block {
   position: relative;
   overflow: hidden;
@@ -81,7 +85,7 @@
 
 #youngblock .des-position {
   position: relative;
-  margin-top: -65px; }
+  margin-top: -55px; }
 
 #youngblock .no-margin {
   margin: 0; }
@@ -243,6 +247,8 @@
     transform: translate(-50%, -50%); }
   #youngblock .des-people {
     font-size: 4pt; }
+  #youngblock .line-between-text {
+    top: 4px !important; }
   #youngblock .img-size {
     width: 100%; }
   #youngblock .img-for-ipad {
@@ -277,6 +283,8 @@
     transform: translate(-50%, -50%); }
   #youngblock .des-people {
     font-size: 6pt; }
+  #youngblock .line-between-text {
+    top: 4px !important; }
   #youngblock .qoute-position {
     margin-top: 20px; }
   #youngblock .qoute-text {
@@ -310,6 +318,8 @@
     transform: translate(-50%, -50%); }
   #youngblock .des-people {
     font-size: 4pt; }
+  #youngblock .line-between-text {
+    top: 4px !important; }
   #youngblock .block-close-position {
     position: relative;
     margin-top: -100px !important;
@@ -360,7 +370,9 @@
   #youngblock .hashtag-million-text {
     font-size: 10pt; }
   #youngblock .des-people {
-    font-size: 4pt; }
+    font-size: 3pt; }
+  #youngblock .line-between-text {
+    top: 2.5px !important; }
   #youngblock .block-close-position {
     position: relative;
     margin-top: -100px !important;

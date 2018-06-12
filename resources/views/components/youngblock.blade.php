@@ -138,12 +138,12 @@
                             <div class="row justify-content-center">
                                 <div class="col-6 text-left">
                                     <div class="owl-prev">
-                                        <img src={{ asset('/imgs/left.png') }}>
+                                        <img class="arrow-size" src={{ asset('/imgs/left.png') }}>
                                     </div>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="owl-next">
-                                        <img src={{ asset('/imgs/right.png') }}>
+                                        <img class="arrow-size" src={{ asset('/imgs/right.png') }}>
                                     </div>
                                 </div>
                             </div>

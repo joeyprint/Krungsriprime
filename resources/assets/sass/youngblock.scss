@@ -37,6 +37,11 @@
         transform: translate(0%, -50%)
     }
 
+    .arrow-size {
+        height: 30px;
+        width: auto;
+    }
+
     .img-block {
         position: relative;
         overflow: hidden;
@@ -78,7 +83,7 @@
 
     .des-position {
         position: relative;
-        margin-top: -65px;
+        margin-top: -55px;
     }
 
     .no-margin {
@@ -316,6 +321,10 @@
             font-size: 4pt;
         }
 
+        .line-between-text {
+            top: 4px !important;
+        }
+
         .img-size {
             width: 100%;
         }
@@ -370,6 +379,10 @@
 
         .des-people {
             font-size: 6pt;
+        }
+
+        .line-between-text {
+            top: 4px !important;
         }
 
         .qoute-position {
@@ -427,6 +440,10 @@
 
         .des-people {
             font-size: 4pt;
+        }
+
+        .line-between-text {
+            top: 4px !important;
         }
 
         .block-close-position {
@@ -511,7 +528,11 @@
         }
 
         .des-people {
-            font-size: 4pt;
+            font-size: 3pt;
+        }
+
+        .line-between-text {
+            top: 2.5px !important;
         }
 
         .block-close-position {
