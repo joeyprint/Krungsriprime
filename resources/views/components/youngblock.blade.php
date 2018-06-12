@@ -3,89 +3,152 @@
         <div class="row justify-content-center no-gutters">
             <div class="col-12">
                 <div class="img-block">
-                        <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
-                                <div class="owl-stage-outer">
-                                    <div class="owl-stage">
-                                        <div class="owl-item relative-position" onclick="peopleDetail(1)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
+                    <div id="block-carousel" class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item relative-position" onclick="peopleDetail(1)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people1.png') }} alt="people 1" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">TAVEPONG PRATOOMWONG</p>
                                             </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(1)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(2)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people3.png') }} alt="people 3" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(3)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(4)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people5.png') }} alt="people 5" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(5)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(6)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
-                                            <img class="img-size" src={{ asset('/imgs/people7.png') }} alt="people 7" width="100%">
-                                            <div class="text-center des-position">
-                                                <p class="hashtag-million-text"><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
-                                            </div>
-                                            <div class="col-12 text-right click-more" onclick="peopleDetail(7)">
-                                                <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-5 text-left">
+                                                <p class="des-people no-margin">STREET PHOTOGRAPHER</p>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(1)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
                                 </div>
-                                <div class="col-12 arrow-carousel">
-                                    <div class="row justify-content-center">
-                                        <div class="col-6 text-left">
-                                            <div class="owl-prev">
-                                                <img src={{ asset('/imgs/left.png') }}>
+                                <div class="owl-item" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people2.png') }} alt="people 2" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">BAM PITIPATT</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-4 text-left">
+                                                <p class="des-people no-margin">RADIO DJ</p>
                                             </div>
                                         </div>
-                                        <div class="col-6 text-right">
-                                            <div class="owl-next">
-                                                <img src={{ asset('/imgs/right.png') }}>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(2)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people3.png') }} alt="people 3" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">MAY SAMITADA</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-4 text-left">
+                                                <p class="des-people no-margin">RUNNER</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(3)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people4.png') }} alt="people 4" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">FONGBEER</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-5 text-left">
+                                                <p class="des-people no-margin">SONG WRITER</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(4)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people5.png') }} alt="people 5" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">BOW CHOMPUNOOD</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-5 text-left">
+                                                <p class="des-people no-margin">BEAUVITA BRAND</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(5)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people6.png') }} alt="people 6" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-5 text-right">
+                                                <p class="des-people no-margin">HAPPY NANC</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-5 text-left">
+                                                <p class="des-people no-margin">TRAVEL BLOGGER</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(6)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
+                                    </div>
+                                </div>
+                                <div class="owl-item" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
+                                    <img class="img-size" src={{ asset('/imgs/people7.png') }} alt="people 7" width="100%">
+                                    <div class="col-12 text-center des-position hashtag-million-text">
+                                        <p><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
+                                        <div class="row justify-content-center des-people-position">
+                                            <div class="col-4 text-right">
+                                                <p class="des-people no-margin">PANG ASCHA</p>
+                                            </div>
+                                            <div class="col-1 line-between-text"></div>
+                                            <div class="col-5 text-left">
+                                                <p class="des-people no-margin">FIFTH SEASON BRAND</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-right click-more" onclick="peopleDetail(7)">
+                                        <p class="text-uppercase qoute-text yellow-text">click to see detail</p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-12 arrow-carousel">
+                            <div class="row justify-content-center">
+                                <div class="col-6 text-left">
+                                    <div class="owl-prev">
+                                        <img src={{ asset('/imgs/left.png') }}>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="owl-next">
+                                        <img src={{ asset('/imgs/right.png') }}>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
