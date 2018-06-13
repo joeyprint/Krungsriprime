@@ -153,13 +153,13 @@
             </div>
         </div>
     </div>
-    <div class="container d-none d-lg-block marginTop50 position-for-ipad">
+    <div class="container d-none d-lg-block marginTop100 position-for-ipad">
         <div class="row justify-content-center">
             <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(1)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people1.png') }} alt="people 1">
+                            <img class="img-size img-people" src={{ asset('/imgs/people1.png') }} alt="people 1">
                         </div>
                         <div class="col-12 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>SHUTTERS</p>
@@ -177,10 +177,10 @@
                 </div>                       
             </div>
             <div class="col-4 marginTop15 cursor-of-block column2-position">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
+                            <img class="img-size img-people" src={{ asset('/imgs/people2.png') }} alt="people 2">                        
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>MINUTE</p>
@@ -198,10 +198,10 @@
                 </div>
             </div>
             <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
+                            <img class="img-size img-people" src={{ asset('/imgs/people3.png') }} alt="people 3">                                
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>STEPS</p>
@@ -219,10 +219,10 @@
                 </div>
             </div>
             <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(4)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people4.png') }} alt="people 4">
+                            <img class="img-size img-people" src={{ asset('/imgs/people4.png') }} alt="people 4">
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>LYRICS</p>
@@ -240,10 +240,10 @@
                 </div>
             </div>
             <div class="col-4 marginTop15 cursor-of-block column2-position" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(5)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
+                            <img class="img-size img-people" src={{ asset('/imgs/people5.png') }} alt="people 5">                                
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>BAHT</p>
@@ -261,10 +261,10 @@
                 </div>
             </div>
             <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(6)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
+                            <img class="img-size img-people" src={{ asset('/imgs/people6.png') }} alt="people 6">                                
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>METRES</p>
@@ -282,10 +282,10 @@
                 </div>
             </div>
             <div class="col-4 marginTop15 cursor-of-block column2-position" data-aos="zoom-in">
-                <div class="img-block">
+                <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(7)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
-                            <img class="block-shadow img-size img-people" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
+                            <img class="img-size img-people" src={{ asset('/imgs/people7.png') }} alt="people 7">                                
                         </div>
                         <div class="col-10 text-center des-position hashtag-million-text">
                             <p><span class="yellow-text">#FIRSTMILLION</span>PIECES</p>
@@ -314,7 +314,7 @@
                         <div class="container">
                             <div class="row justify-content-end block-close-position">
                                 <button type="button" class="close close-position" data-dismiss="modal" aria-label="Close">
-                                    <span class="close-button" aria-hidden="true">&times;</span>
+                                    <img class="close-button" src="{{ asset('/imgs/close.png') }}" alt="close">
                                 </button>
                             </div>
                             <div class="row justify-content-start">
@@ -341,9 +341,9 @@
                                                     <img class="qoute-size" src={{ asset('/imgs/upquote.png') }} alt="upquote">
                                                 </span>
                                                 <br>
-                                                    <span id="quote" class="string-qoute">
-                                                        ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน
-                                                    </span>
+                                                <span id="quote" class="string-qoute">
+                                                    ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน
+                                                </span>
                                                 <br>
                                                 <span class="string-qoute-down">
                                                     <img class="qoute-size" src={{ asset('/imgs/downquote.png') }} alt="downquote">
@@ -357,67 +357,15 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="line-popup"></div>
+                                </div>
+                            </div>
                         </div> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    {{-- <div id="modal">
-        <div class="container-fluid">
-            <div class="modal animated slideInUp modal-size" id="people" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="top-line"></div>
-                <div class="modal-dialog modal-dialog-centered max-width mobile-modal" role="document">
-                    <div class="container ">
-                        <div class="row justify-content-end block-close-position">
-                            <button type="button" class="close close-position" data-dismiss="modal" aria-label="Close">
-                                <span class="close-button" aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="row justify-content-start">
-                            <div class="col-12">
-                                <h5 id="name" class="text-uppercase yellow-text font-weight-bold">Name</h5>
-                                <p id="job" class="text-uppercase">Job</p>
-                            </div>
-                            <div class="col-2 col-md-1 line marginT10B20"></div>
-                        </div>
-                        <div class="row justify-content-start">
-                            <div class="col-12">
-                                <p id="description" class="yellow-text">Description</p>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center block-qoute-position no-gutters">
-                            <div class="col-12 col-md-8">
-                                <img id="picture" src="" alt="people 1" width="100%">
-                            </div>
-                            <div class="col-12 col-md-4 block-qoute-position block-qoute">
-                                <div class="row justify-content-center qoute-position">
-                                    <div class="col-12 text-center">
-                                        <p class="no-margin qoute-text">
-                                            <span class="string-qoute-top">
-                                                <img class="qoute-size" src={{ asset('/imgs/upquote.png') }} alt="upquote">
-                                            </span>
-                                            <br>
-                                                <span id="quote" class="string-qoute">
-                                                    ชัตเตอร์ครั้งที่ล้านสร้าง มาสเตอร์พีซ ให้ชีวิตการทำงาน
-                                                </span>
-                                            <br>
-                                            <span class="string-qoute-down">
-                                                <img class="qoute-size" src={{ asset('/imgs/downquote.png') }} alt="downquote">
-                                            </span>
-                                        </p>                                        
-                                    </div>
-                                    <div class="col-10 block-bottom-qoute text-center">
-                                        <p class="concept-text">ก้าวสู่ล้านต่อไปได้ไวขึ้น<br>พร้อมรับสิทธิประโยชน์ก่อนใคร</p>
-                                        <img class="logo" src={{ asset('/imgs/krungsri_prime_white.png') }} alt="krungsri prime">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
 </section>

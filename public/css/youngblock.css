@@ -20,390 +20,430 @@
   font-weight: normal;
   font-style: normal; }
 
-#youngblock .padding0 {
-  padding: 0px; }
-
-#youngblock .marginTop15 {
-  margin-top: 15px; }
-
-#youngblock .marginTop50 {
-  margin-top: 50px; }
-
-#youngblock .margin-block {
-  margin-top: 0; }
-
-#youngblock .column2-position {
+#youngblock {
+  background-image: url("/imgs/bg_gray.png");
+  background-position: top;
   position: relative;
-  bottom: 120px; }
-
-#youngblock .block-shadow {
-  box-shadow: 0px 0px 50px #000; }
-
-#youngblock .arrow-carousel {
-  position: absolute;
-  max-width: 100%;
-  max-height: 100%;
+  top: -50;
   width: 100%;
-  height: auto;
-  top: 40%;
-  transform: translate(0%, -50%); }
-
-#youngblock .arrow-size {
-  height: 30px;
-  width: auto; }
-
-#youngblock .img-block {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 250px; }
-
-#youngblock .img-size {
-  width: 100%; }
-
-#youngblock .img-people {
-  position: relative;
-  overflow: hidden; }
-
-#youngblock .hashtag-million-text {
-  font-family: "Conv_krungsri_con_med-webfont";
-  letter-spacing: 4px; }
-
-#youngblock .yellow-text {
-  color: #ffd400; }
-
-#youngblock .des-people {
-  font-size: 6pt;
-  letter-spacing: 1px; }
-
-#youngblock .des-people-position {
-  position: relative;
-  bottom: 25px; }
-
-#youngblock .relation-position {
-  position: relative; }
-
-#youngblock .des-position {
-  position: relative;
-  margin-top: -55px; }
-
-#youngblock .no-margin {
-  margin: 0; }
-
-#youngblock .line-between-text {
-  display: inline;
-  border-top: 2px solid #ffd400;
-  position: relative;
-  top: 7px; }
-
-#youngblock .click-cursor {
-  cursor: pointer; }
-
-#youngblock .cursor-of-block {
-  cursor: pointer; }
-
-#youngblock .click-text {
-  font-size: 8pt; }
-
-#youngblock #modal .modal {
-  border-top: 5px solid #ffd400; }
-
-#youngblock #modal .concept-text {
-  line-height: 2;
-  letter-spacing: 2;
-  font-size: 10pt; }
-
-#youngblock #modal .modal-size {
-  max-width: 100%;
-  width: 100%;
-  max-height: 100%;
-  height: 100%;
-  background-color: #414141; }
-
-#youngblock #modal .line {
-  border-top: 5px solid #ffd400;
-  z-index: 1;
-  position: relative;
-  left: 15px;
-  top: -5px; }
-
-#youngblock #modal .block-close-position {
-  margin-top: 50px; }
-
-#youngblock #modal .close-button {
-  font-size: 2em;
-  color: #fff;
-  cursor: pointer; }
-
-#youngblock #modal .max-width {
-  max-width: 100%; }
-
-#youngblock #modal .marginT10B20 {
-  margin: 10 0 20 0; }
-
-#youngblock #modal .block-qoute {
-  background-color: #303030; }
-
-#youngblock #modal .block-qoute-position {
-  position: relative; }
-
-#youngblock #modal .qoute-position {
-  position: absolute;
-  max-width: 80%;
-  max-height: 100%;
-  width: 80%;
-  top: 50%;
-  left: 54%;
-  transform: translate(-50%, -50%); }
-
-#youngblock #modal .qoute-text {
-  font-family: "Conv_krungsri_con_med-webfont";
-  font-size: 16pt; }
-
-#youngblock #modal .string-qoute {
-  font-size: 1em;
-  position: relative;
-  bottom: 25px;
-  letter-spacing: 1.5; }
-
-#youngblock #modal .string-qoute-top {
-  position: relative;
-  top: -25; }
-
-#youngblock #modal .string-qoute-down {
-  position: relative;
-  bottom: 10px; }
-
-#youngblock #modal .block-bottom-qoute {
-  margin-top: 20px;
-  border-top: 3px solid #ffd400;
-  border-bottom: 3px solid #ffd400;
-  padding: 10px; }
-  #youngblock #modal .block-bottom-qoute .logo {
-    width: 100%; }
-
-@media only screen and (device-width: 1024px) and (device-height: 1366px) {
-  #youngblock .img-size {
-    width: 295px;
-    height: auto; }
-  #youngblock .des-people {
-    font-size: 4pt; }
-  #youngblock .des-position {
-    top: 20px; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; } }
-
-@media only screen and (device-width: 1024px) and (device-height: 768px) {
-  #youngblock .img-size {
-    width: 295px;
-    height: auto; }
-  #youngblock .hidden-for-ipad {
-    visibility: hidden; }
-  #youngblock .des-position {
-    bottom: 50px; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; } }
-
-@media screen and (max-device-width: 992px) and (min-device-width: 768px) {
-  #youngblock .img-size {
-    width: 215px;
-    height: auto; }
-  #youngblock .margin-block {
-    margin-top: -50px; }
-  #youngblock .position-for-ipad {
+  height: auto; }
+  #youngblock .padding0 {
+    padding: 0px; }
+  #youngblock .marginTop15 {
+    margin-top: 15px; }
+  #youngblock .marginTop100 {
     margin-top: 100px; }
-  #youngblock .des-position {
-    margin: 0px;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  #youngblock .qoute-position {
-    margin-top: 20px; }
-  #youngblock .qoute-text {
-    font-size: 10pt !important; }
-  #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; }
-  #youngblock .qoute-size {
-    width: auto;
-    height: 10px; }
-  #youngblock .concept-text {
-    font-size: 8pt; }
-  #youngblock .container {
-    max-width: 90%; } }
-
-@media only screen and (device-width: 768px) and (device-height: 1024px) {
-  #youngblock .img-block {
-    width: 100%;
-    height: 300px;
-    overflow: hidden; }
   #youngblock .margin-block {
-    margin-top: -20px; }
-  #youngblock .des-position {
-    margin: 0px;
+    margin-top: 0; }
+  #youngblock .column2-position {
+    position: relative;
+    bottom: 120px; }
+  #youngblock .block-shadow {
+    box-shadow: 0px 0px 50px #000; }
+  #youngblock .arrow-carousel {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-    top: 80% !important;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  #youngblock .des-people {
-    font-size: 4pt; }
-  #youngblock .line-between-text {
-    top: 4px !important; }
+    width: 100%;
+    height: auto;
+    top: 40%;
+    transform: translate(0%, -50%); }
+  #youngblock .arrow-size {
+    height: 30px;
+    width: auto; }
+  #youngblock .img-block {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px; }
   #youngblock .img-size {
     width: 100%; }
-  #youngblock .img-for-ipad {
-    width: 215px;
-    height: auto; }
-  #youngblock .hidden-for-ipad {
-    visibility: hidden; }
-  #youngblock .des-position {
-    top: 65%;
-    left: 53%; }
-  #youngblock .position-for-ipad {
-    margin-top: 120px; }
-  #youngblock .concept-text {
-    letter-spacing: 1 !important;
-    font-size: 6pt !important; } }
-
-@media screen and (max-device-width: 767px) and (min-device-width: 576px) {
-  #youngblock .img-block {
-    width: 100%;
-    height: 300px;
-    overflow: hidden; }
-  #youngblock .margin-block {
-    margin-top: -20px !important; }
-  #youngblock .des-position {
-    z-index: 2;
-    margin: 0px;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  #youngblock .des-people {
-    font-size: 6pt; }
-  #youngblock .line-between-text {
-    top: 4px !important; }
-  #youngblock .qoute-position {
-    margin-top: 20px; }
-  #youngblock .qoute-text {
-    font-size: 10pt !important; }
-  #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; }
-  #youngblock .block-qoute {
-    height: 350px; }
-  #youngblock .qoute-size {
-    width: auto;
-    height: 10px; }
-  #youngblock .concept-text {
-    font-size: 8pt; }
-  #youngblock .modal {
-    padding-top: 200px; } }
-
-@media screen and (max-device-width: 576px) and (min-device-width: 321px) {
-  #youngblock .img-block {
-    width: 100%;
-    height: 280px;
-    overflow: hidden; }
-  #youngblock .mobile-modal {
-    margin-top: 220px !important; }
-  #youngblock .margin-block {
-    margin-top: -50px; }
-  #youngblock .des-position {
-    margin: 0;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-  #youngblock .des-people {
-    font-size: 4pt; }
-  #youngblock .line-between-text {
-    top: 4px !important; }
-  #youngblock .block-close-position {
+  #youngblock .img-people {
     position: relative;
-    margin-top: -100px !important;
-    top: -120px; }
-  #youngblock .close-position {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    left: 50%;
-    top: 50;
-    transform: translate(-50%, -50%); }
-  #youngblock .modal {
-    padding-top: 200px; }
-  #youngblock .qoute-position {
-    margin-top: 20px; }
-  #youngblock .qoute-text {
-    font-size: 10pt !important; }
-  #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; }
-  #youngblock .block-qoute {
-    height: 350px; }
-  #youngblock .qoute-size {
-    width: auto;
-    height: 10px; }
-  #youngblock .concept-text {
-    font-size: 9pt !important; } }
-
-@media screen and (max-device-width: 320px) and (min-device-width: 0px) {
-  #youngblock .img-block {
-    width: 100%;
-    height: 250px;
     overflow: hidden; }
-  #youngblock .img-size {
-    height: 200px;
-    width: auto; }
-  #youngblock .arrow-carousel {
-    top: 40%; }
-  #youngblock .mobile-modal {
-    margin-top: 220px !important; }
-  #youngblock .margin-block {
-    margin-top: -50px; }
-  #youngblock .des-position {
-    margin: 0;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
   #youngblock .hashtag-million-text {
-    font-size: 10pt; }
+    font-family: "Conv_krungsri_con_med-webfont";
+    letter-spacing: 4px; }
+  #youngblock .yellow-text {
+    color: #ffd400; }
   #youngblock .des-people {
-    font-size: 3pt; }
-  #youngblock .line-between-text {
-    top: 2.5px !important; }
-  #youngblock .block-close-position {
+    font-size: 6pt;
+    letter-spacing: 1px; }
+  #youngblock .des-people-position {
     position: relative;
-    margin-top: -100px !important;
-    top: -120px; }
-  #youngblock .modal {
-    padding-top: 200px; }
-  #youngblock .close-position {
-    position: absolute;
+    bottom: 25px; }
+  #youngblock .relation-position {
+    position: relative; }
+  #youngblock .des-position {
+    position: relative;
+    margin-top: -55px; }
+  #youngblock .no-margin {
+    margin: 0; }
+  #youngblock .line-between-text {
+    display: inline;
+    border-top: 2px solid #ffd400;
+    position: relative;
+    top: 7px; }
+  #youngblock .click-cursor {
+    cursor: pointer; }
+  #youngblock .cursor-of-block {
+    cursor: pointer; }
+  #youngblock .click-text {
+    font-size: 8pt; }
+  #youngblock #modal .modal {
+    background-image: url("/imgs/bg_gray.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-top: 5px solid #ffd400; }
+  #youngblock #modal .concept-text {
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 10pt; }
+  #youngblock #modal .modal-size {
     max-width: 100%;
+    width: 100%;
     max-height: 100%;
-    left: 50%;
-    top: 50;
+    height: 100%;
+    background-color: #4E5156; }
+  #youngblock #modal .line {
+    border-top: 5px solid #ffd400;
+    z-index: 1;
+    position: relative;
+    left: 15px;
+    top: -5px; }
+  #youngblock #modal .block-close-position {
+    margin-top: 50px; }
+  #youngblock #modal .close-button {
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer; }
+  #youngblock #modal .max-width {
+    max-width: 100%; }
+  #youngblock #modal .marginT10B20 {
+    margin: 10 0 20 0; }
+  #youngblock #modal .block-qoute {
+    background-color: #303030; }
+  #youngblock #modal .block-qoute-position {
+    position: relative; }
+  #youngblock #modal .qoute-position {
+    position: absolute;
+    max-width: 80%;
+    max-height: 100%;
+    width: 80%;
+    top: 50%;
+    left: 54%;
     transform: translate(-50%, -50%); }
-  #youngblock .qoute-position {
-    margin-top: 20px; }
-  #youngblock .qoute-text {
-    font-size: 10pt !important; }
-  #youngblock .block-bottom-qoute {
-    margin-bottom: 50px; }
-  #youngblock .block-qoute {
-    height: 350px; }
-  #youngblock .qoute-size {
-    width: auto;
-    height: 10px; }
-  #youngblock .concept-text {
-    font-size: 8pt !important; } }
+  #youngblock #modal .qoute-text {
+    font-family: "Conv_krungsri_con_med-webfont";
+    font-size: 16pt; }
+  #youngblock #modal .string-qoute {
+    font-size: 1em;
+    position: relative;
+    bottom: 0px;
+    letter-spacing: 1.5; }
+  #youngblock #modal .string-qoute-top {
+    position: relative;
+    top: 0; }
+  #youngblock #modal .string-qoute-down {
+    position: relative;
+    bottom: -25px; }
+  #youngblock #modal .block-bottom-qoute {
+    margin-top: 100px;
+    border-top: 3px solid #ffd400;
+    border-bottom: 3px solid #ffd400;
+    padding: 10px; }
+    #youngblock #modal .block-bottom-qoute .logo {
+      width: 100%; }
+  #youngblock #modal .line-popup {
+    border-top: 1px solid #ffd400;
+    width: 120px;
+    transform: rotate(145deg);
+    position: relative;
+    margin-top: 100px;
+    left: 43%;
+    margin-bottom: 100px; }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    #youngblock .img-block {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 200px; }
+    #youngblock .img-size {
+      width: 295px;
+      height: auto; }
+    #youngblock .des-people {
+      font-size: 4pt; }
+    #youngblock .position-for-ipad {
+      margin-top: 120px; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -25px; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 50px !important; } }
+  @media only screen and (device-width: 1024px) and (device-height: 768px) {
+    #youngblock .img-size {
+      width: 295px;
+      height: auto; }
+    #youngblock .hidden-for-ipad {
+      visibility: hidden; }
+    #youngblock .des-position {
+      bottom: 50px; }
+    #youngblock .position-for-ipad {
+      margin-top: 120px; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -25px; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 50px !important; }
+    #youngblock .line-popup {
+      left: 40% !important; } }
+  @media screen and (max-device-width: 992px) and (min-device-width: 768px) {
+    #youngblock .img-block {
+      height: 350px; }
+    #youngblock .img-size {
+      width: 450px;
+      height: auto; }
+    #youngblock .margin-block {
+      position: relative;
+      top: -20px; }
+    #youngblock .position-for-ipad {
+      margin-top: 100px; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -25px; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 50px !important; }
+    #youngblock .des-position {
+      margin: 0px;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #youngblock .qoute-position {
+      margin-top: 20px; }
+    #youngblock .qoute-text {
+      font-size: 10pt !important; }
+    #youngblock .block-bottom-qoute {
+      margin-bottom: 50px; }
+    #youngblock .qoute-size {
+      width: auto;
+      height: 10px; }
+    #youngblock .concept-text {
+      font-size: 8pt; }
+    #youngblock .container {
+      max-width: 90%; }
+    #youngblock .line-popup {
+      left: 40% !important; } }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    #youngblock .img-block {
+      width: 100%;
+      height: 300px;
+      overflow: hidden; }
+    #youngblock .margin-block {
+      position: relative;
+      top: -20px; }
+    #youngblock .des-position {
+      margin: 0px;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 80% !important;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #youngblock .des-people {
+      font-size: 4pt; }
+    #youngblock .line-between-text {
+      top: 4px !important; }
+    #youngblock .img-size {
+      width: 100%; }
+    #youngblock .img-for-ipad {
+      width: 215px;
+      height: auto; }
+    #youngblock .hidden-for-ipad {
+      visibility: hidden; }
+    #youngblock .des-position {
+      top: 65%;
+      left: 53%; }
+    #youngblock .position-for-ipad {
+      margin-top: 120px; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -25px; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 50px !important; }
+    #youngblock .concept-text {
+      letter-spacing: 1 !important;
+      font-size: 6pt !important; }
+    #youngblock .line-popup {
+      left: 40% !important; } }
+  @media screen and (max-device-width: 767px) and (min-device-width: 576px) {
+    #youngblock .img-block {
+      width: 100%;
+      height: 300px;
+      overflow: hidden; }
+    #youngblock .margin-block {
+      position: relative;
+      top: -20px; }
+    #youngblock .des-position {
+      z-index: 2;
+      margin: 0px;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #youngblock .des-people {
+      font-size: 6pt; }
+    #youngblock .line-between-text {
+      top: 4px !important; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -5px !important; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 30px !important; }
+    #youngblock .qoute-position {
+      margin-top: 20px; }
+    #youngblock .qoute-text {
+      font-size: 15pt !important; }
+    #youngblock .block-bottom-qoute {
+      margin-bottom: 50px; }
+    #youngblock .block-qoute {
+      height: 350px; }
+    #youngblock .qoute-size {
+      width: auto;
+      height: 10px; }
+    #youngblock .concept-text {
+      font-size: 8pt; }
+    #youngblock .modal {
+      padding-top: 200px; }
+    #youngblock .line-popup {
+      left: 35% !important; } }
+  @media screen and (max-device-width: 576px) and (min-device-width: 321px) {
+    #youngblock .img-block {
+      width: 100%;
+      height: 280px;
+      overflow: hidden; }
+    #youngblock .mobile-modal {
+      margin-top: 220px !important; }
+    #youngblock .margin-block {
+      position: relative;
+      top: -20px; }
+    #youngblock .des-position {
+      margin: 0;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #youngblock .des-people {
+      font-size: 4pt; }
+    #youngblock .line-between-text {
+      top: 4px !important; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -5px !important; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 30px !important; }
+    #youngblock .block-close-position {
+      position: relative;
+      margin-top: -100px !important;
+      top: -120px; }
+    #youngblock .close-position {
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      left: 50%;
+      top: 50;
+      transform: translate(-50%, -50%); }
+    #youngblock .modal {
+      padding-top: 200px; }
+    #youngblock .qoute-position {
+      margin-top: 20px; }
+    #youngblock .qoute-text {
+      font-size: 13pt !important; }
+    #youngblock .block-bottom-qoute {
+      margin-bottom: 50px; }
+    #youngblock .block-qoute {
+      height: 350px; }
+    #youngblock .qoute-size {
+      width: auto;
+      height: 10px; }
+    #youngblock .concept-text {
+      font-size: 9pt !important; }
+    #youngblock .line-popup {
+      left: 35% !important; } }
+  @media screen and (max-device-width: 320px) and (min-device-width: 0px) {
+    #youngblock .img-block {
+      width: 100%;
+      height: 250px;
+      overflow: hidden; }
+    #youngblock .img-size {
+      height: 200px;
+      width: auto; }
+    #youngblock .arrow-carousel {
+      top: 40%; }
+    #youngblock .mobile-modal {
+      margin-top: 220px !important; }
+    #youngblock .margin-block {
+      position: relative;
+      top: -20px; }
+    #youngblock .des-position {
+      margin: 0;
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 78%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #youngblock .hashtag-million-text {
+      font-size: 10pt; }
+    #youngblock .des-people {
+      font-size: 3pt; }
+    #youngblock .line-between-text {
+      top: 2.5px !important; }
+    #youngblock .string-qoute-top {
+      top: 0; }
+    #youngblock .string-qoute-down {
+      bottom: -5px !important; }
+    #youngblock .block-bottom-qoute {
+      margin-top: 30px !important; }
+    #youngblock .block-close-position {
+      position: relative;
+      margin-top: -100px !important;
+      top: -120px; }
+    #youngblock .modal {
+      padding-top: 200px; }
+    #youngblock .close-position {
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      left: 50%;
+      top: 50;
+      transform: translate(-50%, -50%); }
+    #youngblock .qoute-position {
+      margin-top: 20px; }
+    #youngblock .qoute-text {
+      font-size: 10pt !important; }
+    #youngblock .block-bottom-qoute {
+      margin-bottom: 50px; }
+    #youngblock .block-qoute {
+      height: 300px; }
+    #youngblock .qoute-size {
+      width: auto;
+      height: 10px; }
+    #youngblock .concept-text {
+      font-size: 8pt !important; }
+    #youngblock .line-popup {
+      left: 30% !important; } }
