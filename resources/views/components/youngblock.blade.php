@@ -153,9 +153,9 @@
             </div>
         </div>
     </div>
-    <div class="container d-none d-lg-block marginTop100 position-for-ipad">
+    <div class="container d-none d-lg-block margin-block position-for-ipad">
         <div class="row justify-content-center">
-            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
+            <div class="col-4 marginTop60 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(1)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -176,7 +176,7 @@
                     </div>
                 </div>                       
             </div>
-            <div class="col-4 marginTop15 cursor-of-block column2-position">
+            <div class="col-4 marginTop60 cursor-of-block column2-position">
                 <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(2)" data-toggle="modal" data-target="#people">
                         <div class="col-12">
@@ -197,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 marginTop15 cursor-of-block" data-aos="zoom-in">
+            <div class="col-4 marginTop60 cursor-of-block" data-aos="zoom-in">
                 <div class="img-block block-shadow">
                     <div class="row justify-content-center no-gutters" onclick="peopleDetail(3)" data-toggle="modal" data-target="#people">
                         <div class="col-12">

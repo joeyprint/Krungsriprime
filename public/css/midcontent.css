@@ -28,7 +28,8 @@
 
 #midcontent .line {
   position: relative;
-  border-top: 3px solid #ffd400; }
+  border-top: 3px solid #ffd400;
+  border-bottom: 3px solid #ffd400; }
 
 #midcontent .margin10 {
   margin: 10px; }
@@ -69,7 +70,7 @@
 @media screen and (max-device-width: 576px) and (min-device-width: 321px) {
   #midcontent {
     position: relative;
-    margin-top: 100; }
+    margin-top: 30; }
     #midcontent .line {
       border-top: 1.5px solid #ffd400;
       border-bottom: 1.5px solid #ffd400; }
@@ -79,7 +80,7 @@
 @media screen and (max-device-width: 320px) and (min-device-width: 0px) {
   #midcontent {
     position: relative;
-    margin-top: 100; }
+    margin-top: 20; }
     #midcontent .line {
       border-top: 1.5px solid #ffd400;
       border-bottom: 1.5px solid #ffd400; }
