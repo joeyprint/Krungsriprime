@@ -41,6 +41,8 @@
   margin-bottom: 80px; }
 
 #midcontent .text {
+  position: relative;
+  top: 10;
   font-size: 1.2em; }
 
 #midcontent .yellow-text {

@@ -60,7 +60,7 @@ body {
     opacity: 0;
     &.aos-animate{
         opacity: 1;
-        animation: fade-from-center 4s;
+        animation: fade-from-center 1s;
     }
 }
 
@@ -68,7 +68,7 @@ body {
     opacity: 0;
     &.aos-animate{
         opacity: 1;
-        animation: fade-topic-down 4s;
+        animation: fade-topic-down 1s;
     }
 }
 
@@ -76,7 +76,7 @@ body {
     opacity: 0;
     &.aos-animate{
         opacity: 1;
-        animation: fade-topic-up 4s;
+        animation: fade-topic-up 1s;
     }
 }
 
