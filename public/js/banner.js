@@ -10,7 +10,8 @@ $('#banner').vide({
         //  'ogv': '/video/ocean',
         //  'poster': '/video/ocean',
     },{
-        className : 'bg-video'
+        className : 'bg-video',
+        loop: false
     });   
 
 });
