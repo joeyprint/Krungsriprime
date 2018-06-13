@@ -195,7 +195,7 @@
         .string-qoute {
             font-size: 1em;
             position: relative;
-            bottom: 0px;
+            bottom: -10px;
             letter-spacing: 1.5;
         }
 
@@ -224,7 +224,6 @@
             border-top: 1px solid #ffd400;
             width: 120px;
             transform: rotate(145deg);
-
             position: relative;
             margin-top: 100px;
             left: 43%;
@@ -271,6 +270,10 @@
 
         .block-bottom-qoute {
             margin-top: 50px !important;
+        }
+
+        .concept-text {
+            font-size: 8pt !important;
         }
     }
 
@@ -319,6 +322,10 @@
 
         .block-bottom-qoute {
             margin-top: 50px !important;
+        }
+
+        .concept-text {
+            font-size: 8pt !important;
         }
 
         .line-popup {
@@ -389,7 +396,7 @@
         }
 
         .concept-text {
-            font-size: 8pt;
+            font-size: 5pt !important;
         }
 
         .container {
@@ -510,6 +517,10 @@
             top: 4px !important;
         }
 
+        .string-qoute {
+            bottom: 0 !important;
+        }
+
         .string-qoute-top {
             top: 0;
         }
@@ -590,6 +601,10 @@
 
         .line-between-text {
             top: 4px !important;
+        }
+
+        .string-qoute {
+            bottom: 0 !important;
         }
 
         .string-qoute-top {
@@ -700,6 +715,10 @@
 
         .line-between-text {
             top: 2.5px !important;
+        }
+
+        .string-qoute {
+            bottom: 0 !important;
         }
 
         .string-qoute-top {
