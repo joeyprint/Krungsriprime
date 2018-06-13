@@ -1,5 +1,5 @@
 <section id="banner" class="banner-position">
-    <div class="container-fluid padding0 btn-fix">
+    <div class="container-fluid padding0">
         <div class="row no-gutters justify-content-center video-for-ipad">
             <div class="col-12">
                 <video> </video>
